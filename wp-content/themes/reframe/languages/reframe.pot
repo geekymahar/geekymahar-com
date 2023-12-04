@@ -1,0 +1,941 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-03-09 20:57+0100\n"
+"PO-Revision-Date: 2022-03-09 20:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../../../MAMP/htdocs/wp-content/themes/reframe\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;_nx;esc_html_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:24
+msgid "404 "
+msgstr ""
+
+#: 404.php:24 index.php:57 search.php:58
+msgid "Page"
+msgstr ""
+
+#: 404.php:24
+msgid "not found."
+msgstr ""
+
+#: 404.php:25
+msgid "The page you're looking for couldn't be found."
+msgstr ""
+
+#: comments.php:20
+msgid " Comment"
+msgstr ""
+
+#: comments.php:30
+msgid "Reply"
+msgstr ""
+
+#: comments.php:36 single.php:59
+msgid "Previous"
+msgstr ""
+
+#: comments.php:37 single.php:60
+msgid "Next"
+msgstr ""
+
+#: comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:48
+msgid "Submit"
+msgstr ""
+
+#: comments.php:49
+msgid "Add Comment"
+msgstr ""
+
+#: functions.php:43
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:44
+msgid "A short description of the sidebar."
+msgstr ""
+
+#: functions.php:69
+msgid "Reframe Menu"
+msgstr ""
+
+#: functions.php:90
+msgid "* Add Comment"
+msgstr ""
+
+#: functions.php:92
+msgid "Comment"
+msgstr ""
+
+#: inc/enqueue-assets.php:16
+msgid "on"
+msgstr ""
+
+#: inc/theme-options/config.php:83
+msgid "Loading Screen"
+msgstr ""
+
+#: inc/theme-options/config.php:90
+msgid "Name"
+msgstr ""
+
+#: inc/theme-options/config.php:91
+msgid "Display or hide the loading screen name."
+msgstr ""
+
+#: inc/theme-options/config.php:97
+msgid "Name Text"
+msgstr ""
+
+#: inc/theme-options/config.php:98
+msgid "Text/Name that will be displayed on the loading screen."
+msgstr ""
+
+#: inc/theme-options/config.php:105
+msgid "Name Bottom Spacing"
+msgstr ""
+
+#: inc/theme-options/config.php:106
+msgid "Space between logo and indicator. Use css units like \"px\"."
+msgstr ""
+
+#: inc/theme-options/config.php:130
+msgid "Cursor"
+msgstr ""
+
+#: inc/theme-options/config.php:137
+msgid "Custom Cursor"
+msgstr ""
+
+#: inc/theme-options/config.php:138
+msgid "Enable / Disable custom cursor."
+msgstr ""
+
+#: inc/theme-options/config.php:143
+msgid "Outer Circle Width"
+msgstr ""
+
+#: inc/theme-options/config.php:144
+msgid "Set the width  of the outer circle. "
+msgstr ""
+
+#: inc/theme-options/config.php:156
+msgid "Outer Circle Line Style"
+msgstr ""
+
+#: inc/theme-options/config.php:157
+msgid "Select a line style of the outer circle."
+msgstr ""
+
+#: inc/theme-options/config.php:159 inc/theme-options/config.php:367
+msgid "Solid"
+msgstr ""
+
+#: inc/theme-options/config.php:160 inc/theme-options/config.php:368
+msgid "Dashed"
+msgstr ""
+
+#: inc/theme-options/config.php:161 inc/theme-options/config.php:369
+msgid "Dotted"
+msgstr ""
+
+#: inc/theme-options/config.php:168
+msgid "Outer Circle Line Width"
+msgstr ""
+
+#: inc/theme-options/config.php:169
+msgid "Set the width of the of the outer circle line."
+msgstr ""
+
+#: inc/theme-options/config.php:180
+msgid "Outer Circle Line Color"
+msgstr ""
+
+#: inc/theme-options/config.php:181
+msgid "Choose a color of the of the outer circle line."
+msgstr ""
+
+#: inc/theme-options/config.php:187
+msgid "Inner Circle Width"
+msgstr ""
+
+#: inc/theme-options/config.php:188
+msgid "Set the widht of the inner circle. "
+msgstr ""
+
+#: inc/theme-options/config.php:200
+msgid "Inner Circle Color"
+msgstr ""
+
+#: inc/theme-options/config.php:201
+msgid "Choose a color of the inner circle."
+msgstr ""
+
+#: inc/theme-options/config.php:217
+msgid "Scrolling"
+msgstr ""
+
+#: inc/theme-options/config.php:224
+msgid "Scrollbar Mode"
+msgstr ""
+
+#: inc/theme-options/config.php:225
+msgid "Select a scrollbar mode."
+msgstr ""
+
+#: inc/theme-options/config.php:227
+msgid "Default"
+msgstr ""
+
+#: inc/theme-options/config.php:228
+msgid "Custom Progress"
+msgstr ""
+
+#: inc/theme-options/config.php:229
+msgid "Custom Bar"
+msgstr ""
+
+#: inc/theme-options/config.php:236
+msgid "Smooth Scroll Intensity"
+msgstr ""
+
+#: inc/theme-options/config.php:237
+msgid "Select how smooth the scrolling should be."
+msgstr ""
+
+#: inc/theme-options/config.php:248
+msgid "Mobile Smooth Scroll Intensity"
+msgstr ""
+
+#: inc/theme-options/config.php:249
+msgid "Select how smooth the scrolling should be on mobile devices."
+msgstr ""
+
+#: inc/theme-options/config.php:260
+msgid "Scroll Animations On Mobile"
+msgstr ""
+
+#: inc/theme-options/config.php:261
+msgid "Enable / Disable the scroll animations."
+msgstr ""
+
+#: inc/theme-options/config.php:274
+msgid "Profile Picture"
+msgstr ""
+
+#: inc/theme-options/config.php:282
+msgid "Image"
+msgstr ""
+
+#: inc/theme-options/config.php:283
+msgid "Select your profile picture."
+msgstr ""
+
+#: inc/theme-options/config.php:290
+msgid "Image Dimensions"
+msgstr ""
+
+#: inc/theme-options/config.php:291
+msgid "Set the widht and height of the image container. "
+msgstr ""
+
+#: inc/theme-options/config.php:303
+msgid "3D Effect"
+msgstr ""
+
+#: inc/theme-options/config.php:304
+msgid "Enable / Disable the 3d effect of the profile picture."
+msgstr ""
+
+#: inc/theme-options/config.php:310
+msgid "Text"
+msgstr ""
+
+#: inc/theme-options/config.php:311
+msgid "Text that will be displayed on the profile picture"
+msgstr ""
+
+#: inc/theme-options/config.php:317
+msgid "Hover Effect"
+msgstr ""
+
+#: inc/theme-options/config.php:318
+msgid "Enable / Disable the hover effect."
+msgstr ""
+
+#: inc/theme-options/config.php:325
+msgid "Effect Intensity"
+msgstr ""
+
+#: inc/theme-options/config.php:326
+msgid "Movement speed of the stars."
+msgstr ""
+
+#: inc/theme-options/config.php:338
+msgid "Effect Mode"
+msgstr ""
+
+#: inc/theme-options/config.php:339
+msgid "Select a background and additonal settings will apear."
+msgstr ""
+
+#: inc/theme-options/config.php:341
+msgid "Tech"
+msgstr ""
+
+#: inc/theme-options/config.php:342
+msgid "Abstract"
+msgstr ""
+
+#: inc/theme-options/config.php:343
+msgid "Bricks"
+msgstr ""
+
+#: inc/theme-options/config.php:344
+msgid "Claw"
+msgstr ""
+
+#: inc/theme-options/config.php:345
+msgid "Cult"
+msgstr ""
+
+#: inc/theme-options/config.php:346
+msgid "Numbers"
+msgstr ""
+
+#: inc/theme-options/config.php:347
+msgid "Pieces"
+msgstr ""
+
+#: inc/theme-options/config.php:348 inc/theme-options/config.php:477
+#: inc/theme-options/config.php:493
+msgid "Waves"
+msgstr ""
+
+#: inc/theme-options/config.php:349
+msgid "Custom"
+msgstr ""
+
+#: inc/theme-options/config.php:358
+msgid "Custom Effect Image Source Map"
+msgstr ""
+
+#: inc/theme-options/config.php:359
+msgid ""
+"Select your image that should be used to generate the custom hover effect."
+msgstr ""
+
+#: inc/theme-options/config.php:364
+msgid "Line Style"
+msgstr ""
+
+#: inc/theme-options/config.php:365
+msgid "Select a line style of the lines around the profile picture."
+msgstr ""
+
+#: inc/theme-options/config.php:376
+msgid "Line Width"
+msgstr ""
+
+#: inc/theme-options/config.php:377
+msgid "Set the width of the lines around the profile picture."
+msgstr ""
+
+#: inc/theme-options/config.php:388 inc/theme-options/config.php:569
+#: inc/theme-options/config.php:673
+msgid "Line Color"
+msgstr ""
+
+#: inc/theme-options/config.php:389
+msgid "Choose a color of the lines around the profile picture."
+msgstr ""
+
+#: inc/theme-options/config.php:406
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/theme-options/config.php:413
+msgid "Color Schemes"
+msgstr ""
+
+#: inc/theme-options/config.php:414
+msgid "Select a color scheme."
+msgstr ""
+
+#: inc/theme-options/config.php:461
+msgid "Background"
+msgstr ""
+
+#: inc/theme-options/config.php:468
+msgid "Background Mode"
+msgstr ""
+
+#: inc/theme-options/config.php:469
+msgid "Select the background you want to use."
+msgstr ""
+
+#: inc/theme-options/config.php:471 inc/theme-options/config.php:487
+msgid "Twisted"
+msgstr ""
+
+#: inc/theme-options/config.php:472 inc/theme-options/config.php:488
+msgid "Color"
+msgstr ""
+
+#: inc/theme-options/config.php:473 inc/theme-options/config.php:489
+msgid "Lines"
+msgstr ""
+
+#: inc/theme-options/config.php:474 inc/theme-options/config.php:490
+msgid "Circle"
+msgstr ""
+
+#: inc/theme-options/config.php:475 inc/theme-options/config.php:491
+msgid "Square"
+msgstr ""
+
+#: inc/theme-options/config.php:476 inc/theme-options/config.php:492
+msgid "Asteroids"
+msgstr ""
+
+#: inc/theme-options/config.php:484
+msgid "Mobile Background Mode"
+msgstr ""
+
+#: inc/theme-options/config.php:485
+msgid "Select the background you want to use on mobile devices."
+msgstr ""
+
+#: inc/theme-options/config.php:502
+msgid "Color Settings"
+msgstr ""
+
+#: inc/theme-options/config.php:509 inc/theme-options/config.php:539
+#: inc/theme-options/config.php:578 inc/theme-options/config.php:631
+#: inc/theme-options/config.php:682 inc/theme-options/config.php:713
+#: inc/theme-options/config.php:834
+msgid "Background Color"
+msgstr ""
+
+#: inc/theme-options/config.php:510
+msgid "Select the background color you want to use"
+msgstr ""
+
+#: inc/theme-options/config.php:521
+msgid "Square Settings"
+msgstr ""
+
+#: inc/theme-options/config.php:528
+msgid "Square Mode"
+msgstr ""
+
+#: inc/theme-options/config.php:529
+msgid "Select a color sheme."
+msgstr ""
+
+#: inc/theme-options/config.php:531
+msgid "Black"
+msgstr ""
+
+#: inc/theme-options/config.php:532
+msgid "White"
+msgstr ""
+
+#: inc/theme-options/config.php:540 inc/theme-options/config.php:579
+#: inc/theme-options/config.php:632 inc/theme-options/config.php:683
+#: inc/theme-options/config.php:714 inc/theme-options/config.php:835
+msgid "Select the background color you want to use."
+msgstr ""
+
+#: inc/theme-options/config.php:550
+msgid "Lines Settings"
+msgstr ""
+
+#: inc/theme-options/config.php:557
+msgid "Line Opacity"
+msgstr ""
+
+#: inc/theme-options/config.php:558
+msgid "Set the opacity of the lines."
+msgstr ""
+
+#: inc/theme-options/config.php:570 inc/theme-options/config.php:674
+msgid "Set the color of the lines."
+msgstr ""
+
+#: inc/theme-options/config.php:591
+msgid "Circle Settings"
+msgstr ""
+
+#: inc/theme-options/config.php:598
+msgid "Circle Speed"
+msgstr ""
+
+#: inc/theme-options/config.php:599
+msgid "Set the rotational speed of the circle."
+msgstr ""
+
+#: inc/theme-options/config.php:610
+msgid "Circle Opacity"
+msgstr ""
+
+#: inc/theme-options/config.php:611
+msgid "Set the opacity of the circle."
+msgstr ""
+
+#: inc/theme-options/config.php:622
+msgid "Circle Color"
+msgstr ""
+
+#: inc/theme-options/config.php:623
+msgid "Set the color of the circle."
+msgstr ""
+
+#: inc/theme-options/config.php:642
+msgid "Twisted Settings"
+msgstr ""
+
+#: inc/theme-options/config.php:649
+msgid "Rotation Speed"
+msgstr ""
+
+#: inc/theme-options/config.php:650
+msgid "Set the rotational speed."
+msgstr ""
+
+#: inc/theme-options/config.php:661 inc/theme-options/config.php:701
+msgid "Scene Opacity"
+msgstr ""
+
+#: inc/theme-options/config.php:662 inc/theme-options/config.php:702
+msgid "Set the opacity of the scene."
+msgstr ""
+
+#: inc/theme-options/config.php:694
+msgid "Asteroids Settings"
+msgstr ""
+
+#: inc/theme-options/config.php:723
+msgid "Cube Color"
+msgstr ""
+
+#: inc/theme-options/config.php:724
+msgid "Set the color of the cubes."
+msgstr ""
+
+#: inc/theme-options/config.php:732
+msgid "Particle Color"
+msgstr ""
+
+#: inc/theme-options/config.php:733
+msgid "Set the color of the particles."
+msgstr ""
+
+#: inc/theme-options/config.php:742
+msgid "Spotlight Color"
+msgstr ""
+
+#: inc/theme-options/config.php:743
+msgid "Set the color of the spotlight."
+msgstr ""
+
+#: inc/theme-options/config.php:751
+msgid "Spotlight Intensity"
+msgstr ""
+
+#: inc/theme-options/config.php:752
+msgid "Set the intensity of the spotlight."
+msgstr ""
+
+#: inc/theme-options/config.php:763
+msgid "Pointlight Color"
+msgstr ""
+
+#: inc/theme-options/config.php:764
+msgid "Set the color of the pointlight."
+msgstr ""
+
+#: inc/theme-options/config.php:772
+msgid "Pointlight Intensity"
+msgstr ""
+
+#: inc/theme-options/config.php:773
+msgid "Set the intensity of the pointlight."
+msgstr ""
+
+#: inc/theme-options/config.php:784
+msgid "Rectarealight Color"
+msgstr ""
+
+#: inc/theme-options/config.php:785
+msgid "Set the color of the rectarealight."
+msgstr ""
+
+#: inc/theme-options/config.php:793
+msgid "Rectarealight Intensity"
+msgstr ""
+
+#: inc/theme-options/config.php:794
+msgid "Set the intensity of the rectarealight."
+msgstr ""
+
+#: inc/theme-options/config.php:805
+msgid "Demo Mode"
+msgstr ""
+
+#: inc/theme-options/config.php:818
+msgid "Wave Settings"
+msgstr ""
+
+#: inc/theme-options/config.php:825
+msgid "Mesh Color"
+msgstr ""
+
+#: inc/theme-options/config.php:826
+msgid "Set the color of the animated mesh."
+msgstr ""
+
+#: index.php:55 search.php:56
+msgid "Previous page"
+msgstr ""
+
+#: index.php:56 search.php:57
+msgid "Next page"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:393
+#: lib/tgmpa/class-tgm-plugin-activation.php:912
+#: lib/tgmpa/class-tgm-plugin-activation.php:2618
+#: lib/tgmpa/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:394
+#: lib/tgmpa/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:1019
+#: lib/tgmpa/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:1206
+#: lib/tgmpa/class-tgm-plugin-activation.php:3033
+msgid "and"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2473
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3594
+#: lib/tgmpa/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3594
+#: lib/tgmpa/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/tgmpa/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: search.php:65
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content.php:32
+msgid "Pages:"
+msgstr ""

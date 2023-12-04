@@ -1,0 +1,5592 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Reframe Core\n"
+"POT-Creation-Date: 2022-03-09 21:00+0100\n"
+"PO-Revision-Date: 2022-03-09 21:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: Team Avanzare\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../../plugins/reframe-core\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;_nx;esc_html_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: one-click-demo-import/inc/CustomizerImporter.php:37
+#: one-click-demo-import/inc/CustomizerImporter.php:45
+msgid "Importing customizer settings"
+msgstr ""
+
+#: one-click-demo-import/inc/CustomizerImporter.php:43
+msgid "Customizer settings import finished!"
+msgstr ""
+
+#: one-click-demo-import/inc/CustomizerImporter.php:73
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: one-click-demo-import/inc/CustomizerImporter.php:93
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: one-click-demo-import/inc/CustomizerImporter.php:99
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: one-click-demo-import/inc/Downloader.php:58
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: one-click-demo-import/inc/Downloader.php:76
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:199
+#: one-click-demo-import/inc/Helpers.php:242
+#, php-format
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file "
+"to: %s%s."
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:276
+#, php-format
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %s%s."
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:299
+#, php-format
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin "
+"needs it in order to save the demo import xml file to the upload directory "
+"of your site. You can change this setting with these instructions: %s."
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:310
+msgid "One Click Demo Import"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:311
+#: one-click-demo-import/views/plugin-page.php:115
+#: one-click-demo-import/views/plugin-page.php:127
+msgid "Import Demo Data"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:323
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your "
+"server (could not retrieve WP filesystem credentials)!"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:331
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:371
+msgid "One Click Demo Import - "
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:405
+#, php-format
+msgid ""
+"%sYour user role isn't high enough. You don't have permission to import demo "
+"data.%s"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:438
+msgid "No file provided."
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:467
+#, php-format
+msgid "Content file was not uploaded. Error: %s"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:471
+#: one-click-demo-import/inc/Helpers.php:488
+#: one-click-demo-import/inc/Helpers.php:505
+#: one-click-demo-import/inc/Helpers.php:516
+#: one-click-demo-import/inc/Helpers.php:536
+#: one-click-demo-import/inc/Helpers.php:544
+msgid "Upload files"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:484
+#, php-format
+msgid "Widget file was not uploaded. Error: %s"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:501
+#, php-format
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:514
+msgid "Missing Redux option name! Please also enter the Redux option name!"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:532
+#, php-format
+msgid "Redux file was not uploaded. Error: %s"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:542
+msgid "The import files were successfully uploaded!"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:568
+#, php-format
+msgid "Initial max execution time = %s"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:572
+#, php-format
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s"
+"%1$sCustomizer file = %5$s%1$sRedux files:%1$s%6$s"
+msgstr ""
+
+#: one-click-demo-import/inc/Helpers.php:575
+#: one-click-demo-import/inc/Helpers.php:576
+#: one-click-demo-import/inc/Helpers.php:577
+#: one-click-demo-import/inc/Helpers.php:578
+msgid "not defined!"
+msgstr ""
+
+#: one-click-demo-import/inc/Importer.php:174
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/Importer.php:504
+msgid "New AJAX call!"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:137
+msgid "Gravity One Click Demo Import"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:138
+msgid "One Click Demo Importer"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:189
+msgid "No preview image defined for this import."
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:190
+msgid "Are you sure?"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:191
+#: redux/redux-core/inc/fields/color_rgba/class-redux-color-rgba.php:43
+#: redux/redux-templates/assets/js/redux-templates.js:7348
+#: redux/redux-templates/assets/js/redux-templates.js:7416
+#: redux/redux-templates/src/modal-import-wizard/InstallPluginStep.js:111
+#: redux/redux-templates/src/modal-import-wizard/OptionStep.js:40
+msgid "Cancel"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:192
+msgid "Yes, import!"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:193
+msgid "Selected demo import:"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:240
+msgid "Manually uploaded files"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:253
+#: one-click-demo-import/inc/OneClickDemoImport.php:264
+msgid "Downloaded files"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:260
+#, php-format
+msgid "The import files for: %s were successfully downloaded!"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:269
+msgid "No import files specified!"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:390
+msgid ""
+"Just used One Click Demo Import plugin and it was awesome! Thanks "
+"@ProteusThemes! #OCDI https://www.proteusthemes.com/"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:393
+#, php-format
+msgid ""
+"%1$s%6$sWasn't this a great One Click Demo Import experience?%7$s Created "
+"and maintained by %3$sProteusThemes%4$s. %2$s%5$sClick to Tweet!%4$s%8$s"
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:406
+#, php-format
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please "
+"check your page and make sure that everything has imported correctly. "
+msgstr ""
+
+#: one-click-demo-import/inc/OneClickDemoImport.php:417
+#, php-format
+msgid ""
+"%1$sThe demo import has finished, but there were some import errors.%2$sMore "
+"details about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr ""
+
+#: one-click-demo-import/inc/ReduxImporter.php:23
+msgid "The Redux plugin is not activated, so the Redux import was skipped!"
+msgstr ""
+
+#: one-click-demo-import/inc/ReduxImporter.php:32
+#: one-click-demo-import/inc/ReduxImporter.php:53
+#: one-click-demo-import/inc/ReduxImporter.php:66
+msgid "Importing Redux settings"
+msgstr ""
+
+#: one-click-demo-import/inc/ReduxImporter.php:51
+#, php-format
+msgid "Redux settings import for: %s finished successfully!"
+msgstr ""
+
+#: one-click-demo-import/inc/ReduxImporter.php:57
+#, php-format
+msgid ""
+"The Redux option name: %s, was not found in this WP site, so it was not "
+"imported!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:34
+msgid "There are no predefined demo imports for currently active theme!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:37
+msgid "Here are the predefined demo imports:"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:71
+msgid ""
+"At least one of the possible options should be set! Check them with --help"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:122
+msgid ""
+"The \"predefined\" parameter should be a number (an index of the OCDI "
+"predefined demo import)!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:128
+msgid ""
+"The supplied predefined index does not exist! Please take a look at the "
+"available predefined demo imports:"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:135
+msgid "Predefined demo import started! All other parameters will be ignored!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:140
+#, php-format
+msgid "Selected predefined demo import: %s"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:143
+msgid "Preparing the demo import files..."
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:148
+msgid "Demo import files could not be retrieved!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:151
+msgid "Demo import files retrieved successfully!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:153
+msgid "Importing..."
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:173
+msgid "Predefined import finished!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:185
+msgid "Content import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:194
+msgid "Importing content (this might take a while)..."
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:196
+msgid "Importing content"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:201
+msgid "Content import finished!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:204
+msgid "There were some issues while importing the content!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:223
+msgid "Widgets import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:227
+msgid "Importing widgets..."
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:232
+msgid "Widgets imported successfully!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:235
+msgid "There were some issues while importing widgets!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:254
+msgid "Customizer import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:258
+msgid "Importing customizer settings..."
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:263
+msgid "Customizer settings imported successfully!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:266
+msgid "There were some issues while importing customizer settings!"
+msgstr ""
+
+#: one-click-demo-import/inc/WPCLICommands.php:286
+#, php-format
+msgid "Executing action: %s ..."
+msgstr ""
+
+#: one-click-demo-import/inc/WidgetImporter.php:40
+#: one-click-demo-import/inc/WidgetImporter.php:52
+msgid "Importing widgets"
+msgstr ""
+
+#: one-click-demo-import/inc/WidgetImporter.php:88
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: one-click-demo-import/inc/WidgetImporter.php:118
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: one-click-demo-import/inc/WidgetImporter.php:157
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: one-click-demo-import/inc/WidgetImporter.php:178
+msgid "Site does not support widget"
+msgstr ""
+
+#: one-click-demo-import/inc/WidgetImporter.php:211
+msgid "Widget already exists"
+msgstr ""
+
+#: one-click-demo-import/inc/WidgetImporter.php:276
+msgid "Imported"
+msgstr ""
+
+#: one-click-demo-import/inc/WidgetImporter.php:280
+msgid "Imported to Inactive"
+msgstr ""
+
+#: one-click-demo-import/inc/WidgetImporter.php:286
+msgid "No Title"
+msgstr ""
+
+#: one-click-demo-import/inc/WidgetImporter.php:333
+msgid "No results for widget import!"
+msgstr ""
+
+#: one-click-demo-import/one-click-demo-import.php:57
+#, php-format
+msgid ""
+"The %2$sOne Click Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the PHP "
+"version of your site to at least PHP 5.3.2.%4$s Your current version of PHP: "
+"%2$s%1$s%3$s"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/Importer.php:55
+msgid ""
+"The XMLReader class is missing! Please install the XMLReader PHP extension "
+"on your server"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/Importer.php:68
+msgid "Could not open the XML file for parsing!"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/Importer.php:248
+msgid "Content import start error: "
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/Importer.php:280
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:173
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:291
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:375
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:135
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:525
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:588
+msgid "Invalid author mapping"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:689
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:781
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:791
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:869
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:883
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:915
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1833
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:920
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:960
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1105
+msgid "Invalid file type"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1604
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1625
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1629
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1794
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1838
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1897
+#, php-format
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1906
+#, php-format
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1958
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1980
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1986
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2011
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2024
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2029
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2043
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2048
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2074
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2085
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2130
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2135
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2157
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2161
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2175
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2179
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2196
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2227
+#, php-format
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2237
+#, php-format
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2247
+#, php-format
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2255
+#, php-format
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2269
+#, php-format
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2288
+#, php-format
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2298
+#, php-format
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2333
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2342
+#, php-format
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:25
+msgid "Reframe One Click Demo Import"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:35
+#, php-format
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you might "
+"experience server timeout errors.%s"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:50
+msgid "When you import the data, the following things might happen:"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:53
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:54
+msgid ""
+"Posts, pages, images, widgets, menus and other theme settings will get "
+"imported."
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:55
+msgid ""
+"Please click on the Import button only once and wait, it can take a couple "
+"of minutes."
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:60
+msgid "Switch to manual import!"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:62
+msgid "Switch back to theme predefined imports!"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:78
+msgid ""
+"There are no predefined import files available in this theme. Please upload "
+"the import files manually!"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:85
+msgid "Manual demo files upload"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:88
+msgid "Choose a XML file for content import:"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:93
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:98
+msgid "Choose a DAT file for customizer import:"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:104
+msgid "Choose a JSON file for Redux import:"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:107
+msgid "Enter the Redux option name:"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:142
+#: redux/redux-core/inc/fields/border/class-redux-border.php:106
+#: redux/redux-core/inc/fields/spacing/class-redux-spacing.php:165
+#: redux/redux-templates/assets/js/redux-templates.js:8307
+#: redux/redux-templates/assets/js/redux-templates.js:8429
+#: redux/redux-templates/assets/js/redux-templates.js:8803
+#: redux/redux-templates/src/modal-library/sidebar/categoryFilter.js:50
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:44
+#: redux/redux-templates/src/modal-library/sidebar/priceFilter.js:26
+msgid "All"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:149
+msgid "Search demos..."
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:170
+msgid "No preview image."
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:175
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:109
+#: redux/redux-templates/assets/js/redux-templates.js:9693
+#: redux/redux-templates/assets/js/redux-templates.js:9762
+#: redux/redux-templates/src/components/preview-import-button/index.js:32
+#: redux/redux-templates/src/modal-preview/FullyOverlayFooter.js:30
+#: redux/redux-templates/src/modal-preview/FullyOverlayHeader.js:20
+msgid "Import"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:177
+#: redux/redux-templates/src/components/preview-import-button/index.js:26
+msgid "Preview"
+msgstr ""
+
+#: one-click-demo-import/views/plugin-page.php:190
+msgid "Importing, please wait!"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:54
+msgid "Scroll Animations are not visible in the Elementor editor view."
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:63
+msgid "Scroll Animation"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:65
+#: page-builder/widgets/accordion.php:99 page-builder/widgets/accordion.php:111
+#: page-builder/widgets/carousel.php:76 page-builder/widgets/carousel.php:146
+#: page-builder/widgets/carousel.php:158 page-builder/widgets/tabs.php:101
+#: page-builder/widgets/testimonial-carousel.php:108
+#: page-builder/widgets/testimonial-carousel.php:142
+#: page-builder/widgets/testimonial-carousel.php:154
+#: page-builder/widgets/video.php:75 page-builder/widgets/video.php:87
+#: redux/redux-core/inc/fields/switch/class-redux-switch.php:37
+msgid "On"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:66
+#: page-builder/widgets/accordion.php:100
+#: page-builder/widgets/accordion.php:112 page-builder/widgets/carousel.php:77
+#: page-builder/widgets/carousel.php:147 page-builder/widgets/carousel.php:159
+#: page-builder/widgets/tabs.php:102
+#: page-builder/widgets/testimonial-carousel.php:109
+#: page-builder/widgets/testimonial-carousel.php:143
+#: page-builder/widgets/testimonial-carousel.php:155
+#: page-builder/widgets/video.php:76 page-builder/widgets/video.php:88
+#: redux/redux-core/inc/fields/switch/class-redux-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:75
+msgid "Duration (in seconds)"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:90
+#: page-builder/widgets/carousel.php:109 page-builder/widgets/tabs.php:99
+msgid "Animation"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:94
+#: page-builder/widgets/accordion.php:243
+#: page-builder/widgets/accordion.php:331
+#: page-builder/widgets/accordion.php:543 page-builder/widgets/audio.php:180
+#: page-builder/widgets/audio.php:279 page-builder/widgets/audio.php:342
+#: page-builder/widgets/button.php:233 page-builder/widgets/button.php:419
+#: page-builder/widgets/card-cta.php:466 page-builder/widgets/card-cta.php:652
+#: page-builder/widgets/card.php:122 page-builder/widgets/carousel.php:313
+#: page-builder/widgets/contact-form.php:326
+#: page-builder/widgets/contact-form.php:504
+#: page-builder/widgets/contact-form.php:712
+#: page-builder/widgets/icon-list.php:329
+#: page-builder/widgets/image-grid.php:302 page-builder/widgets/pills.php:252
+#: page-builder/widgets/portfolio.php:449
+#: page-builder/widgets/pricing-extended.php:228
+#: page-builder/widgets/pricing-extended.php:600
+#: page-builder/widgets/pricing-extended.php:879
+#: page-builder/widgets/pricing.php:140 page-builder/widgets/seperator.php:94
+#: page-builder/widgets/tabs.php:191 page-builder/widgets/tabs.php:402
+#: page-builder/widgets/tabs.php:490 page-builder/widgets/tabs.php:664
+#: page-builder/widgets/testimonial-carousel.php:295
+#: page-builder/widgets/testimonial-carousel.php:663
+#: page-builder/widgets/timeline.php:157 page-builder/widgets/timeline.php:376
+#: page-builder/widgets/video.php:213 page-builder/widgets/video.php:315
+#: page-builder/widgets/video.php:378
+#: redux/redux-core/inc/fields/border/class-redux-border.php:173
+#: redux/redux-templates/assets/js/redux-templates.js:8441
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:52
+msgid "None"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:95
+msgid "Fade From Bottom"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:96
+msgid "Fade From Left"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:97
+msgid "Fade From Right"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:98
+msgid "Fade In"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:99
+msgid "Rotate Up"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:110
+msgid "Ease"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:114
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:475
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:534
+msgid "none"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:115
+msgid "Sine"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:116
+msgid "Circ"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:117
+msgid "Expo"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:118
+msgid "Power 4"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:119
+msgid "Power 3"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:120
+msgid "Power 2"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:121
+msgid "Power 1"
+msgstr ""
+
+#: page-builder/controls/scroll-animations.php:122
+msgid "Bounce"
+msgstr ""
+
+#: page-builder/page-builder.php:68
+msgid "Themify Icons"
+msgstr ""
+
+#: page-builder/page-builder.php:79
+msgid "ET-Line Icons"
+msgstr ""
+
+#: page-builder/page-builder.php:99
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: page-builder/page-builder.php:100 page-builder/page-builder.php:111
+msgid "Elementor"
+msgstr ""
+
+#: page-builder/page-builder.php:110 page-builder/page-builder.php:122
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: page-builder/page-builder.php:123
+msgid "PHP 7.0"
+msgstr ""
+
+#: page-builder/page-builder.php:140
+msgid "Reframe"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:14
+msgid "Reframe Accordion"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:34 page-builder/widgets/accordion.php:136
+msgid "Accordion"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:43
+#: page-builder/widgets/contact-form.php:62
+#: page-builder/widgets/portfolio.php:43
+#: page-builder/widgets/progress-bar.php:43
+#: page-builder/widgets/progress-bar.php:148
+#: page-builder/widgets/testimonial-carousel.php:52
+#: page-builder/widgets/testimonial-carousel.php:400
+#: redux/redux-templates/assets/js/redux-templates.js:4525
+#: redux/redux-templates/src/components/template-list-subheader/index.js:103
+msgid "Name"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:45
+msgid "Item Name"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:52 page-builder/widgets/accordion.php:435
+#: page-builder/widgets/card.php:41
+#: page-builder/widgets/pricing-extended.php:92
+#: page-builder/widgets/tabs.php:52 page-builder/widgets/tabs.php:75
+#: page-builder/widgets/tabs.php:562
+msgid "Content"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:54
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur. Adipiscing elit. Aenean et "
+"elementum purus."
+msgstr ""
+
+#: page-builder/widgets/accordion.php:62
+msgid "Items"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:68 page-builder/widgets/tabs.php:71
+msgid "Design"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:69
+msgid ""
+"<p>Brand Systems - Design Systems - Visual Identities - Interaction Design - "
+"Visal Design - Motion Design</p>"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:72 page-builder/widgets/tabs.php:79
+msgid "Marketing"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:73
+msgid ""
+"<p>Marketing Strategy - SEO Strategy - Analytics - Creative Storytelling - "
+"UX Copywriting - Google PPC</p>"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:76
+msgid "Development"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:77
+msgid ""
+"<p>UI Development - Technical Consultancy - App Development - Back-End "
+"Development - Cloud Infrastructure - Dev-Ops - SDK Development</p>"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:89 page-builder/widgets/carousel.php:66
+#: page-builder/widgets/tabs.php:91
+#: page-builder/widgets/testimonial-carousel.php:98
+msgid "Settings"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:97
+msgid "Closable"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:109
+msgid "Close Other"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:115
+msgid "This setting will overwrite the setting \"Closeable\"."
+msgstr ""
+
+#: page-builder/widgets/accordion.php:122
+msgid "Animation Duration"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:144
+#: page-builder/widgets/one-page-menu.php:521
+#: page-builder/widgets/one-page-menu.php:725
+#: page-builder/widgets/portfolio.php:154
+#: page-builder/widgets/pricing-extended.php:712
+#: page-builder/widgets/tabs.php:121
+msgid "Item Spacing"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:172
+msgid "Head"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:179
+#: page-builder/widgets/accordion.php:442 page-builder/widgets/audio.php:84
+#: page-builder/widgets/button.php:165 page-builder/widgets/button.php:323
+#: page-builder/widgets/card-cta.php:356 page-builder/widgets/card-cta.php:556
+#: page-builder/widgets/card-grid.php:92 page-builder/widgets/card.php:60
+#: page-builder/widgets/contact-form.php:258
+#: page-builder/widgets/contact-form.php:436
+#: page-builder/widgets/icon-list.php:207
+#: page-builder/widgets/image-grid.php:241
+#: page-builder/widgets/one-page-menu.php:293
+#: page-builder/widgets/pills.php:124 page-builder/widgets/portfolio.php:420
+#: page-builder/widgets/pricing-extended.php:166
+#: page-builder/widgets/pricing-extended.php:784
+#: page-builder/widgets/pricing.php:78
+#: page-builder/widgets/progress-bar.php:330
+#: page-builder/widgets/scroll-indicator.php:215
+#: page-builder/widgets/tabs.php:299 page-builder/widgets/tabs.php:595
+#: page-builder/widgets/testimonial-carousel.php:226
+#: page-builder/widgets/timeline.php:281 page-builder/widgets/video.php:117
+msgid "Background Color"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:196 page-builder/widgets/card-cta.php:345
+#: page-builder/widgets/contact-form.php:243
+#: page-builder/widgets/contact-form.php:421 page-builder/widgets/pills.php:331
+#: page-builder/widgets/tabs.php:270 page-builder/widgets/tagline.php:59
+#: page-builder/widgets/testimonial-carousel.php:215
+msgid "Text Color"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:209 page-builder/widgets/card-cta.php:376
+#: page-builder/widgets/one-page-menu.php:706
+msgid "Text Typography"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:223 page-builder/widgets/audio.php:73
+#: page-builder/widgets/carousel.php:217
+#: page-builder/widgets/pricing-extended.php:580
+#: page-builder/widgets/testimonial-carousel.php:567
+#: page-builder/widgets/video.php:106
+msgid "Icon Color"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:235
+#: page-builder/widgets/pricing-extended.php:592
+msgid "Icon Line Style"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:239
+#: page-builder/widgets/accordion.php:327
+#: page-builder/widgets/accordion.php:539 page-builder/widgets/audio.php:176
+#: page-builder/widgets/audio.php:275 page-builder/widgets/audio.php:338
+#: page-builder/widgets/button.php:229 page-builder/widgets/button.php:415
+#: page-builder/widgets/card-cta.php:462 page-builder/widgets/card-cta.php:648
+#: page-builder/widgets/card.php:118 page-builder/widgets/carousel.php:309
+#: page-builder/widgets/contact-form.php:322
+#: page-builder/widgets/contact-form.php:500
+#: page-builder/widgets/contact-form.php:708
+#: page-builder/widgets/icon-list.php:325
+#: page-builder/widgets/image-grid.php:298
+#: page-builder/widgets/one-page-menu.php:347
+#: page-builder/widgets/pills.php:248 page-builder/widgets/portfolio.php:293
+#: page-builder/widgets/portfolio.php:445
+#: page-builder/widgets/pricing-extended.php:224
+#: page-builder/widgets/pricing-extended.php:513
+#: page-builder/widgets/pricing-extended.php:596
+#: page-builder/widgets/pricing-extended.php:875
+#: page-builder/widgets/pricing.php:136 page-builder/widgets/pricing.php:425
+#: page-builder/widgets/progress-bar.php:249
+#: page-builder/widgets/progress-bar.php:285
+#: page-builder/widgets/scroll-indicator.php:249
+#: page-builder/widgets/scroll-indicator.php:267
+#: page-builder/widgets/seperator.php:90 page-builder/widgets/tabs.php:187
+#: page-builder/widgets/tabs.php:398 page-builder/widgets/tabs.php:486
+#: page-builder/widgets/tabs.php:660
+#: page-builder/widgets/testimonial-carousel.php:291
+#: page-builder/widgets/testimonial-carousel.php:659
+#: page-builder/widgets/timeline.php:153 page-builder/widgets/timeline.php:372
+#: page-builder/widgets/video.php:209 page-builder/widgets/video.php:311
+#: page-builder/widgets/video.php:374
+#: redux/redux-core/inc/fields/border/class-redux-border.php:169
+msgid "Solid"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:240
+#: page-builder/widgets/accordion.php:328
+#: page-builder/widgets/accordion.php:540 page-builder/widgets/audio.php:177
+#: page-builder/widgets/audio.php:276 page-builder/widgets/audio.php:339
+#: page-builder/widgets/button.php:230 page-builder/widgets/button.php:416
+#: page-builder/widgets/card-cta.php:463 page-builder/widgets/card-cta.php:649
+#: page-builder/widgets/card.php:119 page-builder/widgets/carousel.php:310
+#: page-builder/widgets/contact-form.php:323
+#: page-builder/widgets/contact-form.php:501
+#: page-builder/widgets/contact-form.php:709
+#: page-builder/widgets/icon-list.php:326
+#: page-builder/widgets/image-grid.php:299
+#: page-builder/widgets/one-page-menu.php:348
+#: page-builder/widgets/pills.php:249 page-builder/widgets/portfolio.php:294
+#: page-builder/widgets/portfolio.php:446
+#: page-builder/widgets/pricing-extended.php:225
+#: page-builder/widgets/pricing-extended.php:514
+#: page-builder/widgets/pricing-extended.php:597
+#: page-builder/widgets/pricing-extended.php:876
+#: page-builder/widgets/pricing.php:137 page-builder/widgets/pricing.php:426
+#: page-builder/widgets/progress-bar.php:250
+#: page-builder/widgets/progress-bar.php:286
+#: page-builder/widgets/scroll-indicator.php:250
+#: page-builder/widgets/scroll-indicator.php:268
+#: page-builder/widgets/seperator.php:91 page-builder/widgets/tabs.php:188
+#: page-builder/widgets/tabs.php:399 page-builder/widgets/tabs.php:487
+#: page-builder/widgets/tabs.php:661
+#: page-builder/widgets/testimonial-carousel.php:292
+#: page-builder/widgets/testimonial-carousel.php:660
+#: page-builder/widgets/timeline.php:154 page-builder/widgets/timeline.php:373
+#: page-builder/widgets/video.php:210 page-builder/widgets/video.php:312
+#: page-builder/widgets/video.php:375
+#: redux/redux-core/inc/fields/border/class-redux-border.php:170
+msgid "Dashed"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:241
+#: page-builder/widgets/accordion.php:329
+#: page-builder/widgets/accordion.php:541 page-builder/widgets/audio.php:178
+#: page-builder/widgets/audio.php:277 page-builder/widgets/audio.php:340
+#: page-builder/widgets/button.php:231 page-builder/widgets/button.php:417
+#: page-builder/widgets/card-cta.php:464 page-builder/widgets/card-cta.php:650
+#: page-builder/widgets/card.php:120 page-builder/widgets/carousel.php:311
+#: page-builder/widgets/contact-form.php:324
+#: page-builder/widgets/contact-form.php:502
+#: page-builder/widgets/contact-form.php:710
+#: page-builder/widgets/icon-list.php:327
+#: page-builder/widgets/image-grid.php:300
+#: page-builder/widgets/one-page-menu.php:349
+#: page-builder/widgets/pills.php:250 page-builder/widgets/portfolio.php:295
+#: page-builder/widgets/portfolio.php:447
+#: page-builder/widgets/pricing-extended.php:226
+#: page-builder/widgets/pricing-extended.php:515
+#: page-builder/widgets/pricing-extended.php:598
+#: page-builder/widgets/pricing-extended.php:877
+#: page-builder/widgets/pricing.php:138 page-builder/widgets/pricing.php:427
+#: page-builder/widgets/progress-bar.php:251
+#: page-builder/widgets/progress-bar.php:287
+#: page-builder/widgets/scroll-indicator.php:251
+#: page-builder/widgets/scroll-indicator.php:269
+#: page-builder/widgets/seperator.php:92 page-builder/widgets/tabs.php:189
+#: page-builder/widgets/tabs.php:400 page-builder/widgets/tabs.php:488
+#: page-builder/widgets/tabs.php:662
+#: page-builder/widgets/testimonial-carousel.php:293
+#: page-builder/widgets/testimonial-carousel.php:661
+#: page-builder/widgets/timeline.php:155 page-builder/widgets/timeline.php:374
+#: page-builder/widgets/video.php:211 page-builder/widgets/video.php:313
+#: page-builder/widgets/video.php:376
+#: redux/redux-core/inc/fields/border/class-redux-border.php:171
+msgid "Dotted"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:242
+#: page-builder/widgets/accordion.php:330
+#: page-builder/widgets/accordion.php:542 page-builder/widgets/audio.php:179
+#: page-builder/widgets/audio.php:278 page-builder/widgets/audio.php:341
+#: page-builder/widgets/button.php:232 page-builder/widgets/button.php:418
+#: page-builder/widgets/card-cta.php:465 page-builder/widgets/card-cta.php:651
+#: page-builder/widgets/card.php:121 page-builder/widgets/carousel.php:312
+#: page-builder/widgets/contact-form.php:325
+#: page-builder/widgets/contact-form.php:503
+#: page-builder/widgets/contact-form.php:711
+#: page-builder/widgets/icon-list.php:328
+#: page-builder/widgets/image-grid.php:301
+#: page-builder/widgets/one-page-menu.php:350
+#: page-builder/widgets/pills.php:251 page-builder/widgets/portfolio.php:296
+#: page-builder/widgets/portfolio.php:448
+#: page-builder/widgets/pricing-extended.php:227
+#: page-builder/widgets/pricing-extended.php:516
+#: page-builder/widgets/pricing-extended.php:599
+#: page-builder/widgets/pricing-extended.php:878
+#: page-builder/widgets/pricing.php:139 page-builder/widgets/pricing.php:428
+#: page-builder/widgets/progress-bar.php:252
+#: page-builder/widgets/progress-bar.php:288
+#: page-builder/widgets/scroll-indicator.php:252
+#: page-builder/widgets/scroll-indicator.php:270
+#: page-builder/widgets/seperator.php:93 page-builder/widgets/tabs.php:190
+#: page-builder/widgets/tabs.php:401 page-builder/widgets/tabs.php:489
+#: page-builder/widgets/tabs.php:663
+#: page-builder/widgets/testimonial-carousel.php:294
+#: page-builder/widgets/testimonial-carousel.php:662
+#: page-builder/widgets/timeline.php:156 page-builder/widgets/timeline.php:375
+#: page-builder/widgets/video.php:212 page-builder/widgets/video.php:314
+#: page-builder/widgets/video.php:377
+#: redux/redux-core/inc/fields/border/class-redux-border.php:172
+msgid "Double"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:254
+#: page-builder/widgets/pricing-extended.php:611
+msgid "Icon Line Thickness"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:280 page-builder/widgets/audio.php:129
+#: page-builder/widgets/button.php:342 page-builder/widgets/card-cta.php:575
+#: page-builder/widgets/carousel.php:262 page-builder/widgets/icon-list.php:226
+#: page-builder/widgets/one-page-menu.php:646
+#: page-builder/widgets/portfolio.php:369
+#: page-builder/widgets/pricing-extended.php:644
+#: page-builder/widgets/pricing-extended.php:802
+#: page-builder/widgets/testimonial-carousel.php:612
+#: page-builder/widgets/video.php:162
+msgid "Icon Size"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:313
+#: page-builder/widgets/accordion.php:525 page-builder/widgets/audio.php:162
+#: page-builder/widgets/button.php:215 page-builder/widgets/button.php:401
+#: page-builder/widgets/card-cta.php:448 page-builder/widgets/card-cta.php:634
+#: page-builder/widgets/card.php:104 page-builder/widgets/carousel.php:295
+#: page-builder/widgets/contact-form.php:308
+#: page-builder/widgets/contact-form.php:486
+#: page-builder/widgets/contact-form.php:694
+#: page-builder/widgets/icon-list.php:311
+#: page-builder/widgets/image-grid.php:284 page-builder/widgets/pills.php:234
+#: page-builder/widgets/portfolio.php:431
+#: page-builder/widgets/pricing-extended.php:210
+#: page-builder/widgets/pricing-extended.php:861
+#: page-builder/widgets/pricing.php:122 page-builder/widgets/tabs.php:173
+#: page-builder/widgets/tabs.php:384 page-builder/widgets/tabs.php:646
+#: page-builder/widgets/testimonial-carousel.php:277
+#: page-builder/widgets/testimonial-carousel.php:645
+#: page-builder/widgets/video.php:195
+msgid "Border"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:323
+#: page-builder/widgets/accordion.php:535 page-builder/widgets/audio.php:172
+#: page-builder/widgets/button.php:225 page-builder/widgets/button.php:411
+#: page-builder/widgets/card-cta.php:458 page-builder/widgets/card-cta.php:644
+#: page-builder/widgets/card.php:114 page-builder/widgets/carousel.php:305
+#: page-builder/widgets/contact-form.php:318
+#: page-builder/widgets/contact-form.php:496
+#: page-builder/widgets/contact-form.php:704
+#: page-builder/widgets/icon-list.php:321
+#: page-builder/widgets/image-grid.php:294 page-builder/widgets/pills.php:244
+#: page-builder/widgets/portfolio.php:441
+#: page-builder/widgets/pricing-extended.php:220
+#: page-builder/widgets/pricing-extended.php:871
+#: page-builder/widgets/pricing.php:132 page-builder/widgets/tabs.php:183
+#: page-builder/widgets/tabs.php:394 page-builder/widgets/tabs.php:482
+#: page-builder/widgets/tabs.php:656
+#: page-builder/widgets/testimonial-carousel.php:287
+#: page-builder/widgets/testimonial-carousel.php:655
+#: page-builder/widgets/video.php:205
+msgid "Border Style"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:341
+#: page-builder/widgets/accordion.php:553 page-builder/widgets/audio.php:190
+#: page-builder/widgets/button.php:243 page-builder/widgets/button.php:429
+#: page-builder/widgets/card-cta.php:476 page-builder/widgets/card-cta.php:662
+#: page-builder/widgets/card.php:132 page-builder/widgets/carousel.php:323
+#: page-builder/widgets/contact-form.php:336
+#: page-builder/widgets/contact-form.php:514
+#: page-builder/widgets/contact-form.php:722
+#: page-builder/widgets/icon-list.php:339
+#: page-builder/widgets/image-grid.php:312 page-builder/widgets/pills.php:262
+#: page-builder/widgets/portfolio.php:459
+#: page-builder/widgets/pricing-extended.php:238
+#: page-builder/widgets/pricing-extended.php:889
+#: page-builder/widgets/pricing.php:150 page-builder/widgets/tabs.php:201
+#: page-builder/widgets/tabs.php:412 page-builder/widgets/tabs.php:500
+#: page-builder/widgets/tabs.php:674
+#: page-builder/widgets/testimonial-carousel.php:305
+#: page-builder/widgets/testimonial-carousel.php:673
+#: page-builder/widgets/video.php:223
+msgid "Border Color"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:356
+#: page-builder/widgets/accordion.php:568 page-builder/widgets/audio.php:205
+#: page-builder/widgets/button.php:258 page-builder/widgets/button.php:444
+#: page-builder/widgets/card-cta.php:491 page-builder/widgets/card-cta.php:677
+#: page-builder/widgets/card.php:147 page-builder/widgets/carousel.php:338
+#: page-builder/widgets/contact-form.php:351
+#: page-builder/widgets/contact-form.php:529
+#: page-builder/widgets/contact-form.php:737
+#: page-builder/widgets/icon-list.php:354
+#: page-builder/widgets/image-grid.php:327 page-builder/widgets/pills.php:277
+#: page-builder/widgets/portfolio.php:474
+#: page-builder/widgets/pricing-extended.php:253
+#: page-builder/widgets/pricing-extended.php:904
+#: page-builder/widgets/pricing.php:165 page-builder/widgets/tabs.php:216
+#: page-builder/widgets/tabs.php:427 page-builder/widgets/tabs.php:515
+#: page-builder/widgets/tabs.php:689
+#: page-builder/widgets/testimonial-carousel.php:320
+#: page-builder/widgets/testimonial-carousel.php:688
+#: page-builder/widgets/video.php:238
+msgid "Border Width"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:379
+#: page-builder/widgets/accordion.php:591 page-builder/widgets/audio.php:228
+#: page-builder/widgets/button.php:281 page-builder/widgets/button.php:467
+#: page-builder/widgets/card-cta.php:514 page-builder/widgets/card-cta.php:700
+#: page-builder/widgets/card.php:170 page-builder/widgets/carousel.php:361
+#: page-builder/widgets/contact-form.php:374
+#: page-builder/widgets/contact-form.php:552
+#: page-builder/widgets/contact-form.php:760
+#: page-builder/widgets/icon-list.php:377
+#: page-builder/widgets/image-grid.php:350 page-builder/widgets/pills.php:300
+#: page-builder/widgets/portfolio.php:497
+#: page-builder/widgets/pricing-extended.php:276
+#: page-builder/widgets/pricing-extended.php:927
+#: page-builder/widgets/pricing.php:188 page-builder/widgets/tabs.php:239
+#: page-builder/widgets/tabs.php:450 page-builder/widgets/tabs.php:538
+#: page-builder/widgets/tabs.php:712
+#: page-builder/widgets/testimonial-carousel.php:343
+#: page-builder/widgets/testimonial-carousel.php:711
+#: page-builder/widgets/video.php:261
+msgid "Border Radius"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:401
+#: page-builder/widgets/accordion.php:411
+#: page-builder/widgets/accordion.php:461
+#: page-builder/widgets/accordion.php:471 page-builder/widgets/button.php:184
+#: page-builder/widgets/button.php:194 page-builder/widgets/card-cta.php:417
+#: page-builder/widgets/card-cta.php:427 page-builder/widgets/card.php:72
+#: page-builder/widgets/card.php:82 page-builder/widgets/contact-form.php:276
+#: page-builder/widgets/contact-form.php:286
+#: page-builder/widgets/contact-form.php:454
+#: page-builder/widgets/contact-form.php:464
+#: page-builder/widgets/image-grid.php:252
+#: page-builder/widgets/image-grid.php:262
+#: page-builder/widgets/one-page-menu.php:480
+#: page-builder/widgets/one-page-menu.php:490
+#: page-builder/widgets/pills.php:203 page-builder/widgets/pills.php:213
+#: page-builder/widgets/pricing-extended.php:178
+#: page-builder/widgets/pricing-extended.php:188
+#: page-builder/widgets/pricing-extended.php:680
+#: page-builder/widgets/pricing-extended.php:690
+#: page-builder/widgets/pricing.php:90 page-builder/widgets/pricing.php:100
+#: page-builder/widgets/progress-bar.php:365
+#: page-builder/widgets/progress-bar.php:375
+#: page-builder/widgets/scroll-indicator.php:114
+#: page-builder/widgets/scroll-indicator.php:124
+#: page-builder/widgets/tabs.php:345 page-builder/widgets/tabs.php:355
+#: page-builder/widgets/tabs.php:614 page-builder/widgets/tabs.php:624
+#: page-builder/widgets/testimonial-carousel.php:245
+#: page-builder/widgets/testimonial-carousel.php:255
+#: page-builder/widgets/timeline.php:439 page-builder/widgets/timeline.php:449
+msgid "Padding"
+msgstr ""
+
+#: page-builder/widgets/accordion.php:493
+#: page-builder/widgets/accordion.php:503
+msgid "Margin"
+msgstr ""
+
+#: page-builder/widgets/audio.php:14
+msgid "Reframe Audio"
+msgstr ""
+
+#: page-builder/widgets/audio.php:34
+msgid "Audio"
+msgstr ""
+
+#: page-builder/widgets/audio.php:42 page-builder/widgets/video.php:42
+msgid "Choose File"
+msgstr ""
+
+#: page-builder/widgets/audio.php:55
+msgid "View"
+msgstr ""
+
+#: page-builder/widgets/audio.php:66 page-builder/widgets/video.php:99
+msgid "Play Button"
+msgstr ""
+
+#: page-builder/widgets/audio.php:102 page-builder/widgets/carousel.php:236
+#: page-builder/widgets/testimonial-carousel.php:586
+#: page-builder/widgets/video.php:135
+msgid "Button Size"
+msgstr ""
+
+#: page-builder/widgets/audio.php:252 page-builder/widgets/video.php:85
+#: page-builder/widgets/video.php:285
+msgid "Progress Bar"
+msgstr ""
+
+#: page-builder/widgets/audio.php:259 page-builder/widgets/progress-bar.php:262
+#: page-builder/widgets/video.php:295
+msgid "Bar Color"
+msgstr ""
+
+#: page-builder/widgets/audio.php:271 page-builder/widgets/progress-bar.php:245
+#: page-builder/widgets/video.php:307
+msgid "Bar Style"
+msgstr ""
+
+#: page-builder/widgets/audio.php:290 page-builder/widgets/video.php:326
+msgid "Bar Height"
+msgstr ""
+
+#: page-builder/widgets/audio.php:322 page-builder/widgets/progress-bar.php:298
+#: page-builder/widgets/scroll-indicator.php:226
+#: page-builder/widgets/video.php:358
+msgid "Fill Color"
+msgstr ""
+
+#: page-builder/widgets/audio.php:334 page-builder/widgets/progress-bar.php:281
+#: page-builder/widgets/scroll-indicator.php:263
+#: page-builder/widgets/video.php:370
+msgid "Fill Style"
+msgstr ""
+
+#: page-builder/widgets/button.php:14
+msgid "Reframe Button"
+msgstr ""
+
+#: page-builder/widgets/button.php:34 page-builder/widgets/button.php:132
+#: page-builder/widgets/card-cta.php:62 page-builder/widgets/card-cta.php:338
+#: page-builder/widgets/carousel.php:210
+#: page-builder/widgets/contact-form.php:99
+#: page-builder/widgets/contact-form.php:609
+#: page-builder/widgets/portfolio.php:361
+#: page-builder/widgets/testimonial-carousel.php:560
+msgid "Button"
+msgstr ""
+
+#: page-builder/widgets/button.php:41 page-builder/widgets/button.php:491
+#: page-builder/widgets/card-cta.php:34 page-builder/widgets/card-cta.php:50
+#: page-builder/widgets/card-cta.php:69 page-builder/widgets/card-cta.php:249
+#: page-builder/widgets/contact-form.php:106
+#: page-builder/widgets/icon-list.php:77 page-builder/widgets/icon-list.php:401
+#: page-builder/widgets/one-page-menu.php:75 page-builder/widgets/pills.php:43
+#: page-builder/widgets/pills.php:324 page-builder/widgets/portfolio.php:214
+#: page-builder/widgets/scroll-indicator.php:52
+#: page-builder/widgets/scroll-indicator.php:281
+#: page-builder/widgets/tagline.php:42 page-builder/widgets/tagline.php:52
+#: page-builder/widgets/timeline.php:70
+msgid "Text"
+msgstr ""
+
+#: page-builder/widgets/button.php:43
+msgid "Learn More"
+msgstr ""
+
+#: page-builder/widgets/button.php:51 page-builder/widgets/card-cta.php:79
+#: page-builder/widgets/one-page-menu.php:110
+#: page-builder/widgets/one-page-menu.php:238
+msgid "Link"
+msgstr ""
+
+#: page-builder/widgets/button.php:53 page-builder/widgets/card-cta.php:81
+#: page-builder/widgets/one-page-menu.php:112
+#: page-builder/widgets/one-page-menu.php:240
+msgid "https://google.com"
+msgstr ""
+
+#: page-builder/widgets/button.php:70 page-builder/widgets/button.php:305
+#: page-builder/widgets/card-cta.php:98 page-builder/widgets/card-grid.php:49
+#: page-builder/widgets/card-grid.php:69 page-builder/widgets/card-grid.php:232
+#: page-builder/widgets/contact-form.php:116
+#: page-builder/widgets/icon-list.php:66 page-builder/widgets/icon-list.php:189
+#: page-builder/widgets/one-page-menu.php:64
+#: page-builder/widgets/one-page-menu.php:226
+#: page-builder/widgets/pricing-extended.php:81
+msgid "Icon"
+msgstr ""
+
+#: page-builder/widgets/button.php:82 page-builder/widgets/card-cta.php:110
+#: page-builder/widgets/contact-form.php:128
+#: page-builder/widgets/pricing-extended.php:141
+msgid "Icon Position"
+msgstr ""
+
+#: page-builder/widgets/button.php:86 page-builder/widgets/card-cta.php:114
+#: page-builder/widgets/contact-form.php:133
+#: page-builder/widgets/pricing-extended.php:145
+#: page-builder/widgets/scroll-indicator.php:66
+msgid "Before"
+msgstr ""
+
+#: page-builder/widgets/button.php:87 page-builder/widgets/card-cta.php:115
+#: page-builder/widgets/contact-form.php:132
+#: page-builder/widgets/pricing-extended.php:146
+#: page-builder/widgets/scroll-indicator.php:67
+msgid "After"
+msgstr ""
+
+#: page-builder/widgets/button.php:101 page-builder/widgets/card-cta.php:129
+#: page-builder/widgets/icon-list.php:278
+msgid "Icon Spacing"
+msgstr ""
+
+#: page-builder/widgets/button.php:140 page-builder/widgets/card-cta.php:195
+#: page-builder/widgets/card-cta.php:284 page-builder/widgets/card-cta.php:384
+#: page-builder/widgets/card-grid.php:178
+#: page-builder/widgets/card-grid.php:251
+#: page-builder/widgets/card-grid.php:359
+#: page-builder/widgets/icon-list.php:135 page-builder/widgets/pills.php:92
+#: page-builder/widgets/seperator.php:60 page-builder/widgets/tabs.php:147
+#: page-builder/widgets/tagline.php:71
+#: page-builder/widgets/testimonial-carousel.php:183
+#: page-builder/widgets/testimonial-carousel.php:435
+#: page-builder/widgets/testimonial-carousel.php:532
+#: page-builder/widgets/timeline.php:249
+msgid "Alignment"
+msgstr ""
+
+#: page-builder/widgets/button.php:144 page-builder/widgets/card-cta.php:199
+#: page-builder/widgets/card-cta.php:288 page-builder/widgets/card-cta.php:388
+#: page-builder/widgets/card-grid.php:182
+#: page-builder/widgets/card-grid.php:255
+#: page-builder/widgets/card-grid.php:363
+#: page-builder/widgets/icon-list.php:139
+#: page-builder/widgets/image-grid.php:220 page-builder/widgets/pills.php:96
+#: page-builder/widgets/seperator.php:64 page-builder/widgets/tabs.php:151
+#: page-builder/widgets/tagline.php:75
+#: page-builder/widgets/testimonial-carousel.php:187
+#: page-builder/widgets/testimonial-carousel.php:439
+#: page-builder/widgets/testimonial-carousel.php:536
+#: page-builder/widgets/timeline.php:253
+#: redux/redux-core/inc/fields/border/class-redux-border.php:159
+#: redux/redux-core/inc/fields/spacing/class-redux-spacing.php:271
+msgid "Left"
+msgstr ""
+
+#: page-builder/widgets/button.php:148 page-builder/widgets/card-cta.php:203
+#: page-builder/widgets/card-cta.php:292 page-builder/widgets/card-cta.php:392
+#: page-builder/widgets/card-grid.php:186
+#: page-builder/widgets/card-grid.php:259
+#: page-builder/widgets/card-grid.php:367
+#: page-builder/widgets/icon-list.php:143
+#: page-builder/widgets/image-grid.php:224 page-builder/widgets/pills.php:100
+#: page-builder/widgets/seperator.php:68 page-builder/widgets/tabs.php:155
+#: page-builder/widgets/tagline.php:79
+#: page-builder/widgets/testimonial-carousel.php:191
+#: page-builder/widgets/testimonial-carousel.php:443
+#: page-builder/widgets/testimonial-carousel.php:540
+#: page-builder/widgets/timeline.php:257
+msgid "Center"
+msgstr ""
+
+#: page-builder/widgets/button.php:152 page-builder/widgets/card-cta.php:207
+#: page-builder/widgets/card-cta.php:296 page-builder/widgets/card-cta.php:396
+#: page-builder/widgets/card-grid.php:190
+#: page-builder/widgets/card-grid.php:263
+#: page-builder/widgets/card-grid.php:371
+#: page-builder/widgets/icon-list.php:147
+#: page-builder/widgets/image-grid.php:228 page-builder/widgets/pills.php:104
+#: page-builder/widgets/seperator.php:72 page-builder/widgets/tabs.php:159
+#: page-builder/widgets/tagline.php:83
+#: page-builder/widgets/testimonial-carousel.php:195
+#: page-builder/widgets/testimonial-carousel.php:447
+#: page-builder/widgets/testimonial-carousel.php:544
+#: page-builder/widgets/timeline.php:261
+#: redux/redux-core/inc/fields/border/class-redux-border.php:135
+#: redux/redux-core/inc/fields/spacing/class-redux-spacing.php:239
+msgid "Right"
+msgstr ""
+
+#: page-builder/widgets/button.php:312 page-builder/widgets/button.php:498
+#: page-builder/widgets/card-cta.php:167 page-builder/widgets/card-cta.php:256
+#: page-builder/widgets/card-cta.php:545 page-builder/widgets/card-grid.php:150
+#: page-builder/widgets/card-grid.php:239
+#: page-builder/widgets/card-grid.php:338
+#: page-builder/widgets/contact-form.php:652
+#: page-builder/widgets/contact-form.php:682
+#: page-builder/widgets/icon-list.php:196
+#: page-builder/widgets/icon-list.php:408
+#: page-builder/widgets/one-page-menu.php:555
+#: page-builder/widgets/one-page-menu.php:785
+#: page-builder/widgets/portfolio.php:221
+#: page-builder/widgets/portfolio.php:277
+#: page-builder/widgets/pricing-extended.php:307
+#: page-builder/widgets/pricing-extended.php:363
+#: page-builder/widgets/pricing-extended.php:452
+#: page-builder/widgets/pricing-extended.php:526
+#: page-builder/widgets/pricing-extended.php:773
+#: page-builder/widgets/pricing-extended.php:958
+#: page-builder/widgets/pricing.php:219 page-builder/widgets/pricing.php:275
+#: page-builder/widgets/pricing.php:364 page-builder/widgets/pricing.php:438
+#: page-builder/widgets/progress-bar.php:155
+#: page-builder/widgets/progress-bar.php:319
+#: page-builder/widgets/scroll-indicator.php:289
+#: page-builder/widgets/seperator.php:41
+#: page-builder/widgets/testimonial-carousel.php:407
+#: page-builder/widgets/testimonial-carousel.php:504
+#: page-builder/widgets/timeline.php:540 page-builder/widgets/timeline.php:570
+#: page-builder/widgets/timeline.php:600
+msgid "Color"
+msgstr ""
+
+#: page-builder/widgets/button.php:368 page-builder/widgets/card-cta.php:601
+#: page-builder/widgets/contact-form.php:815
+#: page-builder/widgets/icon-list.php:252
+#: page-builder/widgets/portfolio.php:395
+msgid "Box Size"
+msgstr ""
+
+#: page-builder/widgets/button.php:511 page-builder/widgets/card-cta.php:180
+#: page-builder/widgets/card-cta.php:269 page-builder/widgets/card-grid.php:163
+#: page-builder/widgets/card-grid.php:351
+#: page-builder/widgets/contact-form.php:229
+#: page-builder/widgets/contact-form.php:407
+#: page-builder/widgets/contact-form.php:665
+#: page-builder/widgets/icon-list.php:421
+#: page-builder/widgets/one-page-menu.php:568
+#: page-builder/widgets/one-page-menu.php:798
+#: page-builder/widgets/pills.php:344 page-builder/widgets/portfolio.php:234
+#: page-builder/widgets/pricing-extended.php:320
+#: page-builder/widgets/pricing-extended.php:376
+#: page-builder/widgets/pricing-extended.php:465
+#: page-builder/widgets/pricing-extended.php:971
+#: page-builder/widgets/pricing.php:232 page-builder/widgets/pricing.php:288
+#: page-builder/widgets/pricing.php:377
+#: page-builder/widgets/progress-bar.php:168
+#: page-builder/widgets/progress-bar.php:350
+#: page-builder/widgets/scroll-indicator.php:302
+#: page-builder/widgets/tabs.php:330 page-builder/widgets/tagline.php:98
+#: page-builder/widgets/testimonial-carousel.php:175
+#: page-builder/widgets/testimonial-carousel.php:427
+#: page-builder/widgets/testimonial-carousel.php:524
+#: page-builder/widgets/timeline.php:553 page-builder/widgets/timeline.php:583
+#: page-builder/widgets/timeline.php:613
+msgid "Typography"
+msgstr ""
+
+#: page-builder/widgets/card-cta.php:14
+msgid "Reframe Card CTA"
+msgstr ""
+
+#: page-builder/widgets/card-cta.php:41 page-builder/widgets/card-cta.php:160
+#: page-builder/widgets/card-grid.php:48 page-builder/widgets/card-grid.php:56
+#: page-builder/widgets/card-grid.php:143
+msgid "Headline"
+msgstr ""
+
+#: page-builder/widgets/card-cta.php:43
+msgid "Get a free consultation."
+msgstr ""
+
+#: page-builder/widgets/card-cta.php:52
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: page-builder/widgets/card-cta.php:71
+#: page-builder/widgets/one-page-menu.php:166
+msgid "Contact"
+msgstr ""
+
+#: page-builder/widgets/card-cta.php:221 page-builder/widgets/card-cta.php:310
+#: page-builder/widgets/card-grid.php:204
+#: page-builder/widgets/card-grid.php:303
+msgid "Bottom Spacing"
+msgstr ""
+
+#: page-builder/widgets/card-cta.php:538
+msgid "Button Icon"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:14
+msgid "Reframe Card Grid"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:34 page-builder/widgets/card-grid.php:101
+#: page-builder/widgets/timeline.php:80
+msgid "Cards"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:44
+#: page-builder/widgets/progress-bar.php:440
+#: page-builder/widgets/timeline.php:311
+msgid "Mode"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:58 page-builder/widgets/card-grid.php:109
+msgid "40"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:83 page-builder/widgets/card-grid.php:331
+msgid "Subline"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:85 page-builder/widgets/card-grid.php:110
+msgid "Awards"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:116
+msgid "30+"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:117
+msgid "Apps"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:123
+msgid "90+"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:124
+msgid "Projects"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:130
+msgid "130%"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:131
+msgid "Client ROI"
+msgstr ""
+
+#: page-builder/widgets/card-grid.php:277
+#: page-builder/widgets/contact-form.php:789
+#: page-builder/widgets/one-page-menu.php:863
+#: page-builder/widgets/progress-bar.php:456
+#: page-builder/widgets/timeline.php:327
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:558
+msgid "Size"
+msgstr ""
+
+#: page-builder/widgets/card.php:14
+msgid "Reframe Card"
+msgstr ""
+
+#: page-builder/widgets/card.php:34 page-builder/widgets/card.php:53
+#: page-builder/widgets/timeline.php:241
+msgid "Card"
+msgstr ""
+
+#: page-builder/widgets/card.php:43
+msgid ""
+"<p>\" We chose Lennox because it is the perfect combination of convenience "
+"and quality. Team takes care of getting us high-quality images and "
+"efficiently.\"</p>"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:14
+msgid "Reframe Image Carousel"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:34
+msgid "Images"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:42 page-builder/widgets/image-grid.php:42
+msgid "Add Images"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:74
+msgid "Loop Images"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:86
+msgid "Edge Friction"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:87
+msgid "Resistance when swiping edges of non-infinite carousels"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:113
+msgid "slide"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:114
+msgid "fade"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:122
+#: page-builder/widgets/testimonial-carousel.php:118
+msgid "Animation Duration (ms)"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:136
+#: page-builder/widgets/testimonial-carousel.php:132
+#: page-builder/widgets/video.php:65
+msgid "Controls"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:144
+#: page-builder/widgets/testimonial-carousel.php:140
+msgid "Arrow Buttons"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:156
+#: page-builder/widgets/testimonial-carousel.php:152
+msgid "Draggable"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:170
+msgid "Carousel"
+msgstr ""
+
+#: page-builder/widgets/carousel.php:178 page-builder/widgets/pills.php:170
+#: page-builder/widgets/portfolio.php:307
+#: page-builder/widgets/scroll-indicator.php:155
+#: redux/redux-core/inc/fields/dimensions/class-redux-dimensions.php:173
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:577
+msgid "Height"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:14
+msgid "Reframe Contact Form"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:34
+msgid "Generel"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:41
+msgid "Target Email"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:43
+msgid "your@mail.com"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:53
+#: page-builder/widgets/contact-form.php:184
+msgid "Fields"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:60
+msgid "Placeholder Name"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:69
+msgid "Placeholder Email"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:71
+msgid "E-Mail"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:78
+msgid "Placeholder Phone"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:80
+msgid "Phone"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:87
+msgid "Placeholder Message"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:89
+msgid "Message"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:108
+msgid "Send"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:146
+msgid "Messages"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:153
+msgid "Success Text"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:155
+msgid "Your Message has been sent!"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:165
+#: page-builder/widgets/contact-form.php:843
+msgid "Other"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:172
+msgid "Info Text"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:174
+msgid "* Marked fields are required to fill."
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:192
+#: page-builder/widgets/icon-list.php:161 page-builder/widgets/pills.php:143
+#: page-builder/widgets/progress-bar.php:120
+msgid "Spacing"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:220
+msgid "Field [ Input ]"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:398
+msgid "Field [ Textarea ]"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:581
+msgid "Textarea Height"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:617
+#: page-builder/widgets/one-page-menu.php:672
+msgid "Text / Icon Spacing"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:645
+msgid "Button [ Text ]"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:675
+msgid "Button [ Icon ]"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:850
+msgid "Info Text Color"
+msgstr ""
+
+#: page-builder/widgets/contact-form.php:863
+msgid "Info Text Typography"
+msgstr ""
+
+#: page-builder/widgets/icon-list.php:14
+msgid "Reframe Icon List"
+msgstr ""
+
+#: page-builder/widgets/icon-list.php:34 page-builder/widgets/icon-list.php:127
+msgid "List"
+msgstr ""
+
+#: page-builder/widgets/icon-list.php:42
+msgid "Layout"
+msgstr ""
+
+#: page-builder/widgets/icon-list.php:47
+#: redux/redux-core/inc/classes/class-redux-field.php:43
+#: redux/redux-core/inc/classes/class-redux-page-render.php:988
+msgid "Default"
+msgstr ""
+
+#: page-builder/widgets/icon-list.php:51
+msgid "Inline"
+msgstr ""
+
+#: page-builder/widgets/icon-list.php:79 page-builder/widgets/icon-list.php:95
+#: page-builder/widgets/timeline.php:63 page-builder/widgets/timeline.php:95
+msgid "Front-End Developer"
+msgstr ""
+
+#: page-builder/widgets/icon-list.php:102
+msgid "UI/UX Designer"
+msgstr ""
+
+#: page-builder/widgets/icon-list.php:109
+msgid "Backend Developer"
+msgstr ""
+
+#: page-builder/widgets/icon-list.php:116 page-builder/widgets/timeline.php:88
+msgid "Full-Stack Developer"
+msgstr ""
+
+#: page-builder/widgets/image-grid.php:14
+msgid "Reframe Image Grid"
+msgstr ""
+
+#: page-builder/widgets/image-grid.php:34
+#: page-builder/widgets/image-grid.php:120
+msgid "Grid"
+msgstr ""
+
+#: page-builder/widgets/image-grid.php:89
+msgid "Images in each row"
+msgstr ""
+
+#: page-builder/widgets/image-grid.php:128
+msgid "Vertical Gap"
+msgstr ""
+
+#: page-builder/widgets/image-grid.php:154
+msgid "Horizontal Gap"
+msgstr ""
+
+#: page-builder/widgets/image-grid.php:182
+msgid "Image"
+msgstr ""
+
+#: page-builder/widgets/image-grid.php:190
+msgid "Max Width"
+msgstr ""
+
+#: page-builder/widgets/image-grid.php:216
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:14
+msgid "Reframe One Page Menu"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:34
+#: page-builder/widgets/one-page-menu.php:513
+msgid "Main Items"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:44
+msgid "The one page menu element can only be used once on a page."
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:52
+#: page-builder/widgets/one-page-menu.php:211
+#: page-builder/widgets/one-page-menu.php:547
+#: page-builder/widgets/one-page-menu.php:777
+#: page-builder/widgets/pricing-extended.php:41
+#: page-builder/widgets/pricing.php:41 page-builder/widgets/pricing.php:212
+msgid "Label"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:54
+#: page-builder/widgets/one-page-menu.php:286
+msgid "Menu"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:77
+#: page-builder/widgets/one-page-menu.php:130
+msgid "Home"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:85
+msgid "Link Type"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:89
+msgid "Internal"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:90
+msgid "External"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:97
+msgid "Target ID"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:99
+msgid "#about"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:139
+msgid "About"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:148
+msgid "Resume"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:157
+#: page-builder/widgets/portfolio.php:34 page-builder/widgets/portfolio.php:84
+#: page-builder/widgets/portfolio.php:146
+msgid "Portfolio"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:175
+msgid "Shortcodes"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:192
+#: page-builder/widgets/one-page-menu.php:717
+msgid "Social Items"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:200
+msgid "Show/Hide"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:202
+#: page-builder/widgets/progress-bar.php:444
+#: page-builder/widgets/timeline.php:315
+msgid "Show"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:203
+#: page-builder/widgets/progress-bar.php:445
+#: page-builder/widgets/timeline.php:316
+msgid "Hide"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:213
+msgid "Social"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:307
+msgid "Menu Button"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:314
+#: page-builder/widgets/timeline.php:167 page-builder/widgets/timeline.php:386
+msgid "Line Color"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:325
+msgid "Line Color Hover"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:343
+#: page-builder/widgets/timeline.php:149 page-builder/widgets/timeline.php:368
+msgid "Line Style"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:361
+#: page-builder/widgets/timeline.php:182 page-builder/widgets/timeline.php:401
+msgid "Line Width"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:387
+msgid "Line Thickness"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:420
+msgid "Line Spacing"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:446
+msgid "Click Area Size"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:448
+msgid ""
+"Adjust the size of an invisible box that expands the clickable area of the "
+"menu button."
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:577
+#: page-builder/widgets/one-page-menu.php:807
+#: page-builder/widgets/portfolio.php:242
+#: page-builder/widgets/pricing-extended.php:328
+#: page-builder/widgets/pricing.php:240
+#: page-builder/widgets/progress-bar.php:176
+#: page-builder/widgets/progress-bar.php:397
+#: page-builder/widgets/testimonial-carousel.php:372
+#: page-builder/widgets/testimonial-carousel.php:468
+#: page-builder/widgets/timeline.php:654
+msgid "Spacing Bottom"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:603
+#: page-builder/widgets/one-page-menu.php:833
+msgid "Item"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:611
+#: page-builder/widgets/one-page-menu.php:841
+msgid "Default Color"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:623
+#: page-builder/widgets/one-page-menu.php:852
+msgid "Color Active/Hover"
+msgstr ""
+
+#: page-builder/widgets/one-page-menu.php:751
+#: page-builder/widgets/pricing-extended.php:545
+#: page-builder/widgets/pricing.php:457 page-builder/widgets/tabs.php:570
+#: page-builder/widgets/timeline.php:628
+msgid "Spacing Top"
+msgstr ""
+
+#: page-builder/widgets/pills.php:14
+msgid "Reframe Pills"
+msgstr ""
+
+#: page-builder/widgets/pills.php:34
+msgid "Pills"
+msgstr ""
+
+#: page-builder/widgets/pills.php:45 page-builder/widgets/pills.php:57
+#: page-builder/widgets/progress-bar.php:45
+#: page-builder/widgets/progress-bar.php:83
+msgid "HTML/CSS"
+msgstr ""
+
+#: page-builder/widgets/pills.php:60
+msgid "JavaScript"
+msgstr ""
+
+#: page-builder/widgets/pills.php:63
+msgid "React"
+msgstr ""
+
+#: page-builder/widgets/pills.php:66
+msgid "PHP"
+msgstr ""
+
+#: page-builder/widgets/pills.php:69 page-builder/widgets/progress-bar.php:97
+msgid "WordPress"
+msgstr ""
+
+#: page-builder/widgets/pills.php:72
+msgid "GitHub"
+msgstr ""
+
+#: page-builder/widgets/pills.php:84
+msgid "Pill"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:14
+msgid "Reframe Portfolio"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:45 page-builder/widgets/portfolio.php:90
+msgid "Immersive Solutions"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:53
+msgid "Preview Image"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:64
+msgid "Lightbox Image"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:75
+msgid "Lightbox Content"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:77 page-builder/widgets/portfolio.php:99
+msgid ""
+"<h3>Immersive Solutions</h3><p>Lorem Ipsum is simply dummy text of the "
+"printing and typesetting industry. Lorem Ipsum has been the industrys "
+"standard dummy text ever since the 1500s, when an unknown printer took a "
+"galley of type and scrambled it to make a type specimen book.</p>"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:102
+msgid "The Surface Experience"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:111
+msgid ""
+"<h3>The Surface Experience</h3><p>Lorem Ipsum is simply dummy text of the "
+"printing and typesetting industry. Lorem Ipsum has been the industrys "
+"standard dummy text ever since the 1500s, when an unknown printer took a "
+"galley of type and scrambled it to make a type specimen book.</p>"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:114
+msgid "Adaptive Motorcycle"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:123
+msgid ""
+"<h3>Adaptive Motorcycle</h3><p>Lorem Ipsum is simply dummy text of the "
+"printing and typesetting industry. Lorem Ipsum has been the industrys "
+"standard dummy text ever since the 1500s, when an unknown printer took a "
+"galley of type and scrambled it to make a type specimen book.</p>"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:126
+msgid "A Frame Manufacturer"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:135
+msgid ""
+"<h3>A Frame Manufacturer</h3><p>Lorem Ipsum is simply dummy text of the "
+"printing and typesetting industry. Lorem Ipsum has been the industrys "
+"standard dummy text ever since the 1500s, when an unknown printer took a "
+"galley of type and scrambled it to make a type specimen book.</p>"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:181
+msgid "Item Height"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:270 page-builder/widgets/pricing.php:387
+#: page-builder/widgets/seperator.php:34
+msgid "Seperator"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:289
+#: page-builder/widgets/pricing-extended.php:509
+#: page-builder/widgets/pricing.php:421 page-builder/widgets/seperator.php:86
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:388
+msgid "Style"
+msgstr ""
+
+#: page-builder/widgets/portfolio.php:333
+#: redux/redux-core/inc/fields/dimensions/class-redux-dimensions.php:144
+msgid "Width"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:14
+msgid "Reframe Pricing Extended"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:34
+#: page-builder/widgets/pricing-extended.php:159
+#: page-builder/widgets/pricing.php:34 page-builder/widgets/pricing.php:71
+msgid "Pricing"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:43
+msgid "Full-Time"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:50
+#: page-builder/widgets/pricing.php:50 page-builder/widgets/pricing.php:268
+msgid "Price"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:52
+msgid "$59"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:59
+#: page-builder/widgets/pricing.php:59 page-builder/widgets/pricing.php:357
+msgid "Subtext"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:61
+#: page-builder/widgets/pricing.php:61
+msgid "/each hour"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:71
+#: page-builder/widgets/pricing-extended.php:672
+msgid "Icon List"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:94
+#: page-builder/widgets/pricing-extended.php:111
+msgid "Remote"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:118
+msgid "Weekends"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:125
+msgid "Daily Reports"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:132
+msgid "24/7 Support"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:300
+msgid "Pricing [ Label ]"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:356
+msgid "Pricing [ Price ]"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:391
+#: page-builder/widgets/pricing.php:303
+msgid "Spacing Left"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:417
+#: page-builder/widgets/pricing.php:329
+msgid "Spacing Right"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:445
+msgid "Pricing [ Subtext ]"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:475
+msgid "Pricing [ Seperator ]"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:483
+#: page-builder/widgets/pricing.php:395
+#: page-builder/widgets/progress-bar.php:212
+#: page-builder/widgets/scroll-indicator.php:181
+msgid "Thickness"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:573
+msgid "Pricing [ Icon ]"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:738
+msgid "Icon/Text Spacing"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:766
+msgid "Icon List [ Icon ]"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:828
+msgid "Icon Box Size"
+msgstr ""
+
+#: page-builder/widgets/pricing-extended.php:951
+msgid "Icon List [ Text ]"
+msgstr ""
+
+#: page-builder/widgets/pricing.php:14
+msgid "Reframe Pricing"
+msgstr ""
+
+#: page-builder/widgets/pricing.php:43
+msgid "Contract"
+msgstr ""
+
+#: page-builder/widgets/pricing.php:52
+msgid "$79"
+msgstr ""
+
+#: page-builder/widgets/progress-bar.php:14
+msgid "Reframe Progress Bar"
+msgstr ""
+
+#: page-builder/widgets/progress-bar.php:34
+#: page-builder/widgets/progress-bar.php:77
+#: page-builder/widgets/progress-bar.php:112
+msgid "Progress Bars"
+msgstr ""
+
+#: page-builder/widgets/progress-bar.php:53
+msgid "Percentage (%)"
+msgstr ""
+
+#: page-builder/widgets/progress-bar.php:90
+msgid "Javascript"
+msgstr ""
+
+#: page-builder/widgets/progress-bar.php:204
+msgid "Bar"
+msgstr ""
+
+#: page-builder/widgets/progress-bar.php:312
+msgid "Tag"
+msgstr ""
+
+#: page-builder/widgets/progress-bar.php:430
+#: page-builder/widgets/timeline.php:301
+msgid "Corner"
+msgstr ""
+
+#: page-builder/widgets/scroll-indicator.php:14
+msgid "Reframe Scroll Indicator"
+msgstr ""
+
+#: page-builder/widgets/scroll-indicator.php:34
+#: page-builder/widgets/scroll-indicator.php:80
+msgid "Scroll Indicator"
+msgstr ""
+
+#: page-builder/widgets/scroll-indicator.php:44
+msgid "The scroll indicator element can only be used once on a page."
+msgstr ""
+
+#: page-builder/widgets/scroll-indicator.php:54
+msgid "SCROLL"
+msgstr ""
+
+#: page-builder/widgets/scroll-indicator.php:62
+msgid "Line Position"
+msgstr ""
+
+#: page-builder/widgets/scroll-indicator.php:88
+msgid "Line/Text Spacing"
+msgstr ""
+
+#: page-builder/widgets/scroll-indicator.php:146
+#: page-builder/widgets/timeline.php:139 page-builder/widgets/timeline.php:358
+msgid "Line"
+msgstr ""
+
+#: page-builder/widgets/scroll-indicator.php:245
+msgid "Background Style"
+msgstr ""
+
+#: page-builder/widgets/seperator.php:14
+msgid "Reframe Seperator"
+msgstr ""
+
+#: page-builder/widgets/seperator.php:112
+msgid "Seperator Width"
+msgstr ""
+
+#: page-builder/widgets/seperator.php:142
+msgid "Seperator Height"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:14
+msgid "Reframe Tabs"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:34 page-builder/widgets/tabs.php:62
+msgid "Tabs"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:43
+#: redux/redux-core/inc/classes/class-redux-field.php:38
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:130
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:265
+msgid "Title"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:45 page-builder/widgets/tabs.php:67
+msgid "Logo"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:54
+msgid ""
+"<p> Lorem Ipsum is simply dummy text of the printing and typesetting "
+"industry. Lorem Ipsum has been the industrys standard dummy text ever since "
+"the 1500s, when an unknown printer took a galley of type and scrambled it to "
+"make a book.</p>"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:68
+msgid ""
+"<p>Logo - Lorem Ipsum is simply dummy text of the printing and typesetting "
+"industry. Lorem Ipsum has been the industrys standard dummy text ever since "
+"the 1500s, when an unknown printer took a galley of type and scrambled it to "
+"make a book.</p>"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:72
+msgid ""
+"<p>Design - Lorem Ipsum is simply dummy text of the printing and typesetting "
+"industry. Lorem Ipsum has been the industrys standard dummy text ever since "
+"the 1500s, when an unknown printer took a galley of type and scrambled it to "
+"make a book.</p>"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:76
+msgid ""
+"<p>Content - Lorem Ipsum is simply dummy text of the printing and "
+"typesetting industry. Lorem Ipsum has been the industrys standard dummy text "
+"ever since the 1500s, when an unknown printer took a galley of type and "
+"scrambled it to make a book.</p>"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:80
+msgid ""
+"<p>Marketing - Lorem Ipsum is simply dummy text of the printing and "
+"typesetting industry. Lorem Ipsum has been the industrys standard dummy text "
+"ever since the 1500s, when an unknown printer took a galley of type and "
+"scrambled it to make a book.</p>"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:113
+msgid "Navigation"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:263
+msgid "Navigation Item"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:281
+msgid "Text Color [ Hover & Active ]"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:310
+msgid "Background Color [ Hover & Active ]"
+msgstr ""
+
+#: page-builder/widgets/tabs.php:472
+msgid "Border [ Hover & Active ]"
+msgstr ""
+
+#: page-builder/widgets/tagline.php:14
+msgid "Reframe Tagline"
+msgstr ""
+
+#: page-builder/widgets/tagline.php:34
+msgid "Tagline"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:14
+msgid "Reframe Testimonial Carousel"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:34
+msgid "Testimonials"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:43
+#: page-builder/widgets/testimonial-carousel.php:166
+msgid "Quote"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:45
+#: page-builder/widgets/testimonial-carousel.php:75
+#: page-builder/widgets/testimonial-carousel.php:80
+#: page-builder/widgets/testimonial-carousel.php:85
+msgid ""
+"&#x22;We chose Lenoox because it is the perfect combination of convenience "
+"and quality. Team takes care of getting us high-quality images quickly and "
+"more than build jacket efficiently.&#x22;"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:54
+#: page-builder/widgets/testimonial-carousel.php:76
+msgid "John Miller"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:60
+#: page-builder/widgets/testimonial-carousel.php:497
+#: page-builder/widgets/timeline.php:61 page-builder/widgets/timeline.php:593
+msgid "Position"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:62
+#: page-builder/widgets/testimonial-carousel.php:77
+msgid "CEO Tesla Inc."
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:81
+msgid "Elena Louise"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:82
+msgid "CTO Stellar Industries"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:86
+msgid "Brandon Hadid"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:87
+msgid "CEO Ubisoft Montreal"
+msgstr ""
+
+#: page-builder/widgets/testimonial-carousel.php:106
+msgid "Loop"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:14
+msgid "Reframe Timeline"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:34 page-builder/widgets/timeline.php:131
+msgid "Timline"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:43 page-builder/widgets/timeline.php:533
+msgid "Company"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:45 page-builder/widgets/timeline.php:86
+msgid "Google"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:52 page-builder/widgets/timeline.php:563
+msgid "Date"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:54 page-builder/widgets/timeline.php:87
+msgid "2017-2019"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:72 page-builder/widgets/timeline.php:89
+#: page-builder/widgets/timeline.php:96 page-builder/widgets/timeline.php:103
+msgid "<p>Lorem Ipsum is simply dummy text of the printing industry.</p>"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:93
+msgid "Tesla"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:94
+msgid "2015-2017"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:100
+msgid "Adobe"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:101
+msgid "2014-2015"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:102
+msgid "Javascript Developer"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:113
+msgid "Company/Date Order"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:117
+msgid "Company First"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:118
+msgid "Date First"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:213
+msgid "Card Spacing"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:478
+msgid "Card/Line Spacing"
+msgstr ""
+
+#: page-builder/widgets/timeline.php:505
+msgid "Date/Company Spacing"
+msgstr ""
+
+#: page-builder/widgets/video.php:14
+msgid "Reframe Video"
+msgstr ""
+
+#: page-builder/widgets/video.php:34
+msgid "Video"
+msgstr ""
+
+#: page-builder/widgets/video.php:55
+msgid "Poster"
+msgstr ""
+
+#: page-builder/widgets/video.php:73
+msgid "Fullscreen Button"
+msgstr ""
+
+#: redux/class-redux-framework-plugin.php:87
+msgid ""
+"Redux Framework version 4 is activated but not loaded. Redux Framework "
+"version 3 is still installed and activated.  Please deactivate Redux "
+"Framework version 3."
+msgstr ""
+
+#: redux/class-redux-framework-plugin.php:392
+msgid "Redux Framework has an embedded demo."
+msgstr ""
+
+#: redux/class-redux-framework-plugin.php:392
+msgid "Click here to activate the sample config file."
+msgstr ""
+
+#: redux/class-redux-framework-plugin.php:485
+msgid "Go Pro"
+msgstr ""
+
+#: redux/class-redux-framework-plugin.php:559
+msgid "What is this?"
+msgstr ""
+
+#: redux/class-redux-framework-plugin.php:562
+#: redux/redux-templates/src/blocks/library/index.js:32
+#: redux/redux-templates/src/blocks/library/index.js:36
+#: redux/redux-templates/src/plugins/library-context-menu-item/index.js:27
+msgid "Template Library"
+msgstr ""
+
+#: redux/redux-core/class-redux-core.php:402
+msgid "The Redux upload directory"
+msgstr ""
+
+#: redux/redux-core/class-redux-core.php:408
+msgid "Redux Framework"
+msgstr ""
+
+#: redux/redux-core/class-redux-core.php:409
+msgid "Debug information specific to Redux Framework."
+msgstr ""
+
+#: redux/redux-core/class-redux-core.php:412
+#: redux/redux-core/inc/welcome/views/about.php:25
+#: redux/redux-core/inc/welcome/views/about.php:149
+#: redux/redux-core/inc/welcome/views/templates.php:23
+msgid "Version"
+msgstr ""
+
+#: redux/redux-core/class-redux-core.php:416
+msgid "Installation"
+msgstr ""
+
+#: redux/redux-core/class-redux-core.php:420
+msgid "Data directory"
+msgstr ""
+
+#: redux/redux-core/class-redux-core.php:424
+msgid "Browser"
+msgstr ""
+
+#: redux/redux-core/class-redux-core.php:455
+#, php-format
+msgid "Redux Instance: %s"
+msgstr ""
+
+#: redux/redux-core/class-redux-core.php:457
+#, php-format
+msgid "Debug information for the %s Redux instance."
+msgstr ""
+
+#: redux/redux-core/framework.php:396 redux/redux-core/framework.php:405
+msgid "Cheatin&#8217; eh?"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-admin-notices.php:134
+msgid "Dismiss"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-ajax-save.php:40
+#: redux/redux-core/inc/classes/class-redux-ajax-select2.php:38
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-ajax-save.php:50
+#: redux/redux-core/inc/classes/class-redux-ajax-select2.php:42
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-ajax-save.php:112
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-api.php:141
+msgid "Warning, Premature Initialization"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-api.php:144
+#, php-format
+msgid "was run before the %s hook and was delayed to avoid errors."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-api.php:361
+msgid "Redux Framework is not installed. Please install it."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-api.php:724
+msgid "Unable to create a section due to missing id and title."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-api.php:742
+#: redux/redux-core/inc/extensions/metaboxes/class-redux-metaboxes-api.php:431
+msgid ""
+"Unable to create a section due an empty section array or the section "
+"variable passed was not an array."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:134
+msgid "Regular 400"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:138
+msgid "Regular 400 Italic"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:142
+msgid "Bold 700"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:146
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:268
+#, php-format
+msgid ""
+"Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your "
+"support!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:269
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:502
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:317
+#: redux/redux-core/inc/welcome/class-redux-welcome.php:113
+#: redux/redux-templates/src/blocks/library/index.js:39
+msgid "Redux"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:276
+#: redux/redux-core/inc/classes/class-redux-args.php:280
+#: redux/redux-core/inc/lib/metaboxes/class-redux-extension-metaboxes.php:981
+msgid "Options"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:342
+msgid "Redux Framework Notice"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:343
+msgid ""
+"There are references to the Redux Framework support site in your config's "
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:344
+#: redux/redux-core/inc/classes/class-redux-args.php:361
+msgid ""
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:359
+msgid "Redux Framework Notice:"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-args.php:360
+msgid ""
+"There are references to the Redux Framework support site in your config's"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-cdn.php:127
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-cdn.php:130
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the %s plugin/"
+"extension to bypass our CDN and avoid this warning"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-cdn.php:134
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-cdn.php:134
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-cdn.php:182
+#, php-format
+msgid ""
+"The %1$s (or extension) is either not installed or not activated and thus, "
+"some controls may not render properly.  Please ensure that it is installed "
+"and %2$s"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-cdn.php:182
+msgid "activated."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:136
+msgid "Security check failed."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:251
+msgid "Loading..."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:280
+#, php-format
+msgid ""
+"Register <strong>%1$s</strong> to enable automatic Google Font updates "
+"service. Plus unlock all free block templates in the Redux template library."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:285
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:739
+msgid "learn more"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:292
+msgid "Register Now"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:293
+msgid "No thanks"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:337
+msgid ""
+"You’re almost done. Register for our service to unlock even more tools to "
+"help you build better sites faster in WordPress."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:380
+msgid "Build better sites faster with Redux"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:384
+msgid ""
+"The Redux block library service allows you to build any site you want in "
+"minutes with a click of a button. With over 1,000+ templates, Redux helps "
+"you build sites fast!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:393
+msgid ""
+"No registration is required to use Redux as you always have. By registering "
+"for our service you gain access to Google Font updates as well as access to "
+"all free templates in our block template library."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:405
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:341
+msgid "No Thanks"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:409
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:456
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:738
+#: redux/redux-templates/assets/js/redux-templates.js:7670
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:105
+msgid "Register"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:448
+msgid ""
+"Activate essential WordPress security and performance tools by setting up "
+"Redux"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:472
+msgid ""
+"Redux protects you against brute force attacks and unauthorized logins. "
+"Basic protection is always free, while premium plans add unlimited backups "
+"of your whole site, spam protection, malware scanning, and automated fixes."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:492
+msgid ""
+"Activate site accelerator tools and watch your page load times decrease—"
+"we'll optimize your images and serve them from our own powerful global "
+"network of servers, and speed up your mobile site to reduce bandwidth usage."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:507
+msgid "Not now, thank you."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:531
+msgid ""
+"<strong>Redux is activated!</strong> Each site on your network must be "
+"connected individually by an admin on that site."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-connection-banner.php:553
+#, php-format
+msgid ""
+"By clicking the <strong>Register</strong> button, you agree to our <a href="
+"\"%1$s\" target=\"_blank\">terms of service</a>, to create an account, and "
+"to share details of your usage metrics with Redux.io."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:167
+msgid "Gutenberg is currently disabled!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:175
+msgid "Hmm, it seems something else is disabling Gutenberg..."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:178
+msgid "Your theme author has disabled Gutenberg!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:181
+msgid "Looks like something has disabled Gutenberg?"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:186
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:192
+msgid "Enable Gutenberg"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:190
+msgid "Your theme"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:210
+msgid "Disable Plugin"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enable-gutenberg.php:213
+msgid "Disable Plugins"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enqueue.php:616
+#: redux/redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:695
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enqueue.php:632
+#: redux/redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:696
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enqueue.php:648
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enqueue.php:664
+#: redux/redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:697
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enqueue.php:680
+msgid ""
+"Your current options will be replaced with the values of this import. Would "
+"you like to proceed?"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enqueue.php:694
+msgid "Please Wait"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enqueue.php:707
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-enqueue.php:711
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-extension-abstract.php:225
+#, php-format
+msgid "The %1$s extension requires Redux Framework version %2$s or higher."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-extension-abstract.php:225
+msgid "You are currently running Redux Framework version "
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-extension-abstract.php:225
+msgid ""
+"This field will not render in your option panel, and featuress of this "
+"extension will not be available until the latest version of Redux Framework "
+"has been installed."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-extensions.php:92
+#, php-format
+msgid "The `%s` extension was not located properly"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-field.php:37
+msgid "Field ID"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-field.php:39
+msgid "Subtitle"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-field.php:40
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:142
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:278
+#: redux/redux-templates/src/stores/actionHelper.js:179
+msgid "Description"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-field.php:41
+msgid "Class"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-field.php:42
+msgid "Compiler"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-field.php:44
+msgid "Disabled"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-field.php:45
+msgid "Hint"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-field.php:46
+msgid "Permissions"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-field.php:47
+msgid "Required"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-filesystem.php:142
+#: redux/redux-core/inc/classes/class-redux-filesystem.php:432
+msgid "File Permission Issues"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-filesystem.php:142
+#: redux/redux-core/inc/classes/class-redux-filesystem.php:432
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that %1$s has the "
+"proper read-write permissions, or modify your wp-config.php file to contain "
+"your FTP login credentials as %2$s."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-filesystem.php:142
+#: redux/redux-core/inc/classes/class-redux-filesystem.php:432
+msgid "outlined here"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-functions.php:511
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-health.php:50
+msgid "Security token"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-health.php:85
+msgid "Data transmit"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-helpers.php:1263
+msgid "version"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-helpers.php:1263
+msgid "is out of date. The core version is"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-page-render.php:172
+msgid "Enable"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-page-render.php:177
+msgid "Disable"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-page-render.php:184
+msgid "moving the mouse over"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-page-render.php:186
+msgid "clicking"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-page-render.php:191
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %1$s the hint icon, offering addition "
+"information about the field in which they appear.  They can be %2$s by using "
+"the link below."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-page-render.php:196
+msgid "Hints"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-page-render.php:212
+msgid "Hint Tooltip Preferences"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-page-render.php:513
+#, php-format
+msgid "Field %1$s could not be displayed. Field type %2$s was not found."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:86
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:104
+msgid "Submit Support Information?"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:106
+#, php-format
+msgid ""
+"Redux will send the debug information found on the %s and your Redux config "
+"to our secure server.  Are you ready to proceed?"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:106
+msgid "WordPress Site Health screen"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:166
+#: redux/redux-core/inc/lib/metaboxes/class-redux-extension-metaboxes.php:1200
+msgid "Settings Imported!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:187
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:208
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:229
+msgid "Settings Saved!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:256
+#: redux/redux-core/inc/lib/metaboxes/class-redux-extension-metaboxes.php:1204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:270
+#: redux/redux-core/inc/lib/metaboxes/class-redux-extension-metaboxes.php:1208
+#: redux/redux-core/inc/lib/metaboxes/class-redux-extension-metaboxes.php:1516
+msgid "error(s) were found!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:285
+#: redux/redux-core/inc/lib/metaboxes/class-redux-extension-metaboxes.php:1212
+msgid "warning(s) were found!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:405
+msgid ""
+"Your panel has bundled copies of Redux Framework template files that are "
+"outdated!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-panel.php:405
+msgid "Please update them now as functionality issues could arise."
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-rest-api-builder.php:68
+#: redux/redux-core/inc/classes/class-redux-rest-api-builder.php:83
+msgid "The field type"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:99
+#, php-format
+msgid "%s years"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:101
+msgid "a year"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:108
+#, php-format
+msgid "%s weeks"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:110
+msgid "a week"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:117
+#, php-format
+msgid "%s days"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:119
+msgid "a day"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:126
+#, php-format
+msgid "%s hours"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:128
+msgid "an hour"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:135
+#, php-format
+msgid "%s minutes"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:137
+msgid "a minute"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:144
+#, php-format
+msgid "%s seconds"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:146
+msgid "a second"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:280
+#, php-format
+msgid "Are you enjoying %s?"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:283
+#, php-format
+msgid ""
+"You have been using %1$s for %2$s now. Would you mind leaving a review to "
+"let us know know what you think? We'd really appreciate it!"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:287
+msgid "Leave a Review"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-user-feedback.php:288
+msgid "No thanks / I already have"
+msgstr ""
+
+#: redux/redux-core/inc/classes/class-redux-wordpress-data.php:358
+msgid "[unassigned]"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:721
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:722
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: redux/redux-core/inc/extensions/customizer/class-redux-extension-customizer.php:723
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/customizer/inc/class-redux-customizer-panel.php:97
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/customizer/inc/class-redux-customizer-panel.php:126
+#: redux/redux-core/inc/extensions/customizer/inc/class-redux-customizer-panel.php:167
+msgid "You are customizing"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/customizer/inc/class-redux-customizer-section.php:140
+msgid "Press return or enter to open"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/customizer/inc/class-redux-customizer-section.php:147
+msgid "Back"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/class-redux-extension-import-export.php:84
+msgid "Import / Export"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:77
+msgid "Import Options"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:83
+msgid "Import from Clipboard"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:89
+msgid "Upload file"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:96
+msgid "Paste your clipboard data here."
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:112
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:120
+msgid "Export Options"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:133
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:136
+msgid "Export File"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/import_export/import_export/class-redux-import-export.php:168
+msgid "Your panel has unchanged values, would you like to save them now?"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/metaboxes/class-redux-metaboxes-api.php:611
+msgid ""
+"Unable to create a box due an empty box array or the box variable passed was "
+"not an array."
+msgstr ""
+
+#: redux/redux-core/inc/extensions/options_object/class-redux-extension-options-object.php:72
+#: redux/redux-core/inc/extensions/options_object/options_object/class-redux-options-object.php:100
+msgid "Options Object"
+msgstr ""
+
+#: redux/redux-core/inc/extensions/options_object/options_object/class-redux-options-object.php:106
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:121
+#: redux/redux-core/inc/fields/color/class-redux-color.php:76
+#: redux/redux-core/inc/fields/color_gradient/class-redux-color-gradient.php:136
+msgid "Transparent"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:132
+msgid "No Repeat"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:133
+msgid "Repeat All"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:134
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:135
+msgid "Repeat Vertically"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:136
+#: redux/redux-core/inc/fields/background/class-redux-background.php:151
+#: redux/redux-core/inc/fields/background/class-redux-background.php:169
+#: redux/redux-core/inc/fields/background/class-redux-background.php:187
+#: redux/redux-core/inc/fields/background/class-redux-background.php:206
+msgid "Inherit"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:139
+msgid "Background Repeat"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:152
+#: redux/redux-core/inc/fields/background/class-redux-background.php:170
+msgid "Border Box"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:153
+#: redux/redux-core/inc/fields/background/class-redux-background.php:171
+msgid "Content Box"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:154
+#: redux/redux-core/inc/fields/background/class-redux-background.php:172
+msgid "Padding Box"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:175
+msgid "Background Origin"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:188
+msgid "Cover"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:189
+msgid "Contain"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:192
+msgid "Background Size"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:204
+msgid "Fixed"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:205
+msgid "Scroll"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:209
+msgid "Background Attachment"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:221
+msgid "Left Top"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:222
+msgid "Left center"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:223
+msgid "Left Bottom"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:224
+msgid "Center Top"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:225
+msgid "Center Center"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:226
+msgid "Center Bottom"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:227
+msgid "Right Top"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:228
+msgid "Right center"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:229
+msgid "Right Bottom"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:232
+msgid "Background Position"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:287
+#: redux/redux-core/inc/fields/media/class-redux-media.php:89
+msgid "No media selected"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:332
+#: redux/redux-core/inc/fields/media/class-redux-media.php:244
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:107
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:251
+#: redux/redux-templates/assets/js/redux-templates.js:796
+#: redux/redux-templates/src/blocks/import/components/edit.js:119
+msgid "Upload"
+msgstr ""
+
+#: redux/redux-core/inc/fields/background/class-redux-background.php:339
+#: redux/redux-core/inc/fields/media/class-redux-media.php:251
+#: redux/redux-core/inc/fields/multi_text/class-redux-multi-text.php:60
+#: redux/redux-core/inc/fields/multi_text/class-redux-multi-text.php:77
+#: redux/redux-core/inc/fields/multi_text/class-redux-multi-text.php:99
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:118
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:253
+msgid "Remove"
+msgstr ""
+
+#: redux/redux-core/inc/fields/border/class-redux-border.php:123
+#: redux/redux-core/inc/fields/spacing/class-redux-spacing.php:223
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:641
+msgid "Top"
+msgstr ""
+
+#: redux/redux-core/inc/fields/border/class-redux-border.php:147
+#: redux/redux-core/inc/fields/spacing/class-redux-spacing.php:255
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:653
+msgid "Bottom"
+msgstr ""
+
+#: redux/redux-core/inc/fields/border/class-redux-border.php:176
+msgid "Border style"
+msgstr ""
+
+#: redux/redux-core/inc/fields/box_shadow/class-redux-box-shadow.php:92
+msgid "Shadow"
+msgstr ""
+
+#: redux/redux-core/inc/fields/box_shadow/class-redux-box-shadow.php:116
+msgid "Horizontal Length "
+msgstr ""
+
+#: redux/redux-core/inc/fields/box_shadow/class-redux-box-shadow.php:140
+msgid "Vertical Length "
+msgstr ""
+
+#: redux/redux-core/inc/fields/box_shadow/class-redux-box-shadow.php:164
+msgid "Blur Radius "
+msgstr ""
+
+#: redux/redux-core/inc/fields/box_shadow/class-redux-box-shadow.php:188
+msgid "Spread "
+msgstr ""
+
+#: redux/redux-core/inc/fields/color_rgba/class-redux-color-rgba.php:42
+msgid "Choose"
+msgstr ""
+
+#: redux/redux-core/inc/fields/color_rgba/class-redux-color-rgba.php:45
+msgid "Select Color"
+msgstr ""
+
+#: redux/redux-core/inc/fields/dimensions/class-redux-dimensions.php:194
+#: redux/redux-core/inc/fields/dimensions/class-redux-dimensions.php:198
+#: redux/redux-core/inc/fields/dimensions/class-redux-dimensions.php:200
+#: redux/redux-core/inc/fields/spacing/class-redux-spacing.php:282
+#: redux/redux-core/inc/fields/spacing/class-redux-spacing.php:283
+msgid "Units"
+msgstr ""
+
+#: redux/redux-core/inc/fields/gallery/class-redux-gallery.php:48
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: redux/redux-core/inc/fields/gallery/class-redux-gallery.php:49
+msgid "Clear Gallery"
+msgstr ""
+
+#: redux/redux-core/inc/fields/link_color/class-redux-link-color.php:65
+msgid "Regular"
+msgstr ""
+
+#: redux/redux-core/inc/fields/link_color/class-redux-link-color.php:87
+msgid "Hover"
+msgstr ""
+
+#: redux/redux-core/inc/fields/link_color/class-redux-link-color.php:109
+msgid "Visited"
+msgstr ""
+
+#: redux/redux-core/inc/fields/link_color/class-redux-link-color.php:131
+msgid "Active"
+msgstr ""
+
+#: redux/redux-core/inc/fields/link_color/class-redux-link-color.php:153
+msgid "Focus"
+msgstr ""
+
+#: redux/redux-core/inc/fields/multi_text/class-redux-multi-text.php:28
+msgid "Add More"
+msgstr ""
+
+#: redux/redux-core/inc/fields/password/class-redux-password.php:53
+msgid "Password"
+msgstr ""
+
+#: redux/redux-core/inc/fields/password/class-redux-password.php:54
+msgid "Username"
+msgstr ""
+
+#: redux/redux-core/inc/fields/select/class-redux-select.php:106
+#: redux/redux-core/inc/fields/select_image/class-redux-select-image.php:26
+msgid "Select an item"
+msgstr ""
+
+#: redux/redux-core/inc/fields/select/class-redux-select.php:183
+#: redux/redux-core/inc/fields/select_image/class-redux-select-image.php:145
+msgid "No items of this type were found."
+msgstr ""
+
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:32
+msgid "Slide"
+msgstr ""
+
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:48
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:235
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:154
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:290
+msgid "URL"
+msgstr ""
+
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:217
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:353
+msgid "Delete"
+msgstr ""
+
+#: redux/redux-core/inc/fields/slides/class-redux-slides.php:365
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: redux/redux-core/inc/fields/text/class-redux-text.php:27
+msgid ""
+"The Text field accepts any form of text and optionally validates the text "
+"before saving the value."
+msgstr ""
+
+#: redux/redux-core/inc/fields/text/class-redux-text.php:29
+msgid "Display a qTip div when active on the text field."
+msgstr ""
+
+#: redux/redux-core/inc/fields/text/class-redux-text.php:30
+msgid "Placeholder text."
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:307
+msgid "Font Family"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:309
+msgid "Font family"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:349
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:351
+msgid "Backup Font Family"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:370
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:390
+msgid "Font style"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:371
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:403
+msgid "Font subsets"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:411
+msgid "Font Subsets"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:414
+msgid "Subsets"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:416
+msgid "Font script"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:430
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:431
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:433
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:435
+msgid "Text Align"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:444
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:480
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:506
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:535
+msgid "inherit"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:445
+msgid "left"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:446
+msgid "right"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:447
+msgid "center"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:448
+msgid "justify"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:449
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:479
+msgid "initial"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:461
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:462
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:464
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:466
+msgid "Text Transform"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:476
+msgid "capitalize"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:477
+msgid "uppercase"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:478
+msgid "lowercase"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:492
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:493
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:495
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:497
+msgid "Font Variant"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:507
+msgid "normal"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:508
+msgid "small-caps"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:520
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:521
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:523
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:525
+msgid "Text Decoration"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:536
+msgid "underline"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:537
+msgid "overline"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:538
+msgid "line-through"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:539
+msgid "blink"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:552
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:557
+msgid "Font Size"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:571
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:576
+msgid "Line Height"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:591
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:596
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:597
+msgid "Word Spacing"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:611
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:616
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:617
+msgid "Letter Spacing"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:639
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:641
+msgid "Margin Top"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:651
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:653
+msgid "Margin Bottom"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:675
+msgid "Font Color"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:682
+msgid "Font color"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:736
+msgid ""
+"Your Google Fonts are out of date. In order to update them you must register "
+"for Redux to enable updates."
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:738
+msgid "to enable font updates"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:743
+msgid "Automated updates"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:743
+msgid "one-time update"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:756
+msgid "Shadow Color"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:761
+msgid "Shadow color"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:773
+msgid "Horizontal"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:790
+msgid "Vertical"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:807
+msgid "Blur"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:856
+msgid "Downloading Google Fonts..."
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:858
+#, php-format
+msgid "Update Failed|msg. %1$s"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:858
+msgid "Retry?"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:860
+#, php-format
+msgid "Updated! %1$s to start using your updated fonts."
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:860
+msgid "Reload the page"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:1286
+msgid "Standard Fonts"
+msgstr ""
+
+#: redux/redux-core/inc/fields/typography/class-redux-typography.php:1369
+msgid "Google Webfonts"
+msgstr ""
+
+#: redux/redux-core/inc/lib/gradient-filters/class-redux-gradient-filters.php:44
+msgid "Gradient Type "
+msgstr ""
+
+#: redux/redux-core/inc/lib/gradient-filters/class-redux-gradient-filters.php:53
+msgid "linear"
+msgstr ""
+
+#: redux/redux-core/inc/lib/gradient-filters/class-redux-gradient-filters.php:54
+msgid "radial"
+msgstr ""
+
+#: redux/redux-core/inc/lib/gradient-filters/class-redux-gradient-filters.php:82
+msgid "From Reach "
+msgstr ""
+
+#: redux/redux-core/inc/lib/gradient-filters/class-redux-gradient-filters.php:105
+msgid "To Reach"
+msgstr ""
+
+#: redux/redux-core/inc/lib/gradient-filters/class-redux-gradient-filters.php:135
+msgid "Gradient Angle"
+msgstr ""
+
+#: redux/redux-core/inc/lib/image-filters/class-redux-image-filters.php:55
+msgid "Filters"
+msgstr ""
+
+#: redux/redux-core/inc/lib/metaboxes/class-redux-extension-metaboxes.php:1217
+msgid "Expand"
+msgstr ""
+
+#: redux/redux-core/inc/lib/metaboxes/class-redux-extension-metaboxes.php:1522
+msgid "warnings(s) were found!"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:43
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:63
+msgid "RECOMMENDED"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "If you are submitting to WordPress.org Theme Repository, it is"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "strongly"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "suggested that you read"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "this document"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:43
+msgid "or your theme will be rejected because of Redux."
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "REQUIRED"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:50
+msgid "You MUST delete"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:50
+msgid ""
+"or your theme will be rejected by WP.org theme submission because of Redux."
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-embedded.php:63
+msgid ""
+"The following arguments MUST be used for WP.org submissions, or you will be "
+"rejected because of your Redux configuration."
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-full-package.php:43
+msgid "Redux localization utilities"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-full-package.php:44
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-full-package.php:45
+msgid "Redux Code Styles"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-full-package.php:46
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-full-package.php:47
+msgid "Redux Plugin File"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-full-package.php:48
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-full-package.php:49
+msgid "CI Testing FIle"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-full-package.php:50
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-full-package.php:63
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the"
+msgstr ""
+
+#: redux/redux-core/inc/themecheck/checks/class-redux-full-package.php:63
+msgid ""
+"folder. Embedding anything else will get your rejected from theme "
+"submission. Suspected Redux package file(s):"
+msgstr ""
+
+#: redux/redux-core/inc/validation/color/class-redux-validation-color.php:34
+#, php-format
+msgid ""
+"Invalid HTML color code %1$s. Please enter a valid code. No value was saved."
+msgstr ""
+
+#: redux/redux-core/inc/validation/color/class-redux-validation-color.php:46
+#, php-format
+msgid "Sanitized value and saved as %1$s instead of %2$s."
+msgstr ""
+
+#: redux/redux-core/inc/validation/comma_numeric/class-redux-validation-comma-numeric.php:34
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: redux/redux-core/inc/validation/css/class-redux-validation-css.php:27
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: redux/redux-core/inc/validation/date/class-redux-validation-date.php:27
+msgid "This field must be a valid date."
+msgstr ""
+
+#: redux/redux-core/inc/validation/email/class-redux-validation-email.php:27
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: redux/redux-core/inc/validation/html_custom/class-redux-validation-html-custom.php:27
+msgid "Unallowed HTML was found in this field and has been removed."
+msgstr ""
+
+#: redux/redux-core/inc/validation/js/class-redux-validation-js.php:27
+msgid "Javascript has been successfully escaped."
+msgstr ""
+
+#: redux/redux-core/inc/validation/no_html/class-redux-validation-no-html.php:27
+msgid "You must not enter any HTML in this field.  All HTML has been removed."
+msgstr ""
+
+#: redux/redux-core/inc/validation/no_special_chars/class-redux-validation-no-special-chars.php:27
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: redux/redux-core/inc/validation/not_empty/class-redux-validation-not-empty.php:27
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: redux/redux-core/inc/validation/numeric/class-redux-validation-numeric.php:27
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: redux/redux-core/inc/validation/unique_slug/class-redux-validation-unique-slug.php:29
+msgid "That URL slug is in use, please choose another."
+msgstr ""
+
+#: redux/redux-core/inc/validation/url/class-redux-validation-url.php:27
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: redux/redux-core/inc/welcome/class-redux-welcome.php:96
+msgid "If you like"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/class-redux-welcome.php:96
+msgid "please leave us a"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/class-redux-welcome.php:96
+msgid "rating. A huge thank you in advance!"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/class-redux-welcome.php:113
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/class-redux-welcome.php:116
+#: redux/redux-templates/assets/js/redux-templates.js:3603
+#: redux/redux-templates/assets/js/redux-templates.js:4439
+#: redux/redux-templates/src/blocks/library/insert-library-button.js:25
+#: redux/redux-templates/src/components/multiple-item/index.js:34
+#: redux/redux-templates/src/components/tab-header/index.js:44
+#: redux/redux-templates/src/components/template-list-subheader/index.js:25
+msgid "Templates"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/class-redux-welcome.php:284
+msgid "Disable Panel Demo"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/class-redux-welcome.php:290
+msgid "Enable Panel Demo"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:17
+#: redux/redux-core/inc/welcome/views/templates.php:15
+msgid "Welcome to"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:21
+#: redux/redux-core/inc/welcome/views/templates.php:19
+msgid ""
+"Redux is the world's most powerful and widely used WordPress interface "
+"builder. We are trusted by millions of developers and end users world-wide."
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:34
+#, php-format
+msgid "Redux is Where the End User %s Interacts with WordPress"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:35
+msgid ""
+"Redux is a foundation on which to build any interface in WordPress. It's "
+"time saved, frustrations reduced, and a unified experience."
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:38
+msgid "Metaboxes"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:39
+msgid "Taxonomies"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:40
+msgid "User Meta"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:41
+msgid "Options Panel"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:42
+msgid "Customizer"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:43
+msgid "Gutenberg"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:57
+msgid "Did I install this?"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:61
+msgid ""
+"Maybe not! These items are using Redux. If you want to keep using them, "
+"Redux will need to remain installed and activated."
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:72
+#, php-format
+msgid ""
+"Maybe not! If you want to see what Redux is all about, click here to "
+"%1$sActivate Demo Mode%2$s."
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:99
+msgid "Version:"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:104
+#: redux/redux-core/inc/welcome/views/about.php:157
+msgid "By"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:111
+msgid "Theme"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/about.php:163
+msgid "Plugin"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/templates.php:35
+msgid " Template Libraries"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/templates.php:45
+msgid "Extendify Template Library"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/templates.php:49
+msgid "Load Extendify template library"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/templates.php:54
+#: redux/redux-templates/src/blocks/library/edit.js:31
+msgid "Redux Template Library"
+msgstr ""
+
+#: redux/redux-core/inc/welcome/views/templates.php:58
+msgid "Load legacy Redux template library"
+msgstr ""
+
+#: redux/redux-core/templates/panel/footer.tpl.php:58
+msgid "Save Changes"
+msgstr ""
+
+#: redux/redux-core/templates/panel/footer.tpl.php:62
+msgid "Reset Section"
+msgstr ""
+
+#: redux/redux-core/templates/panel/footer.tpl.php:63
+msgid "Reset All"
+msgstr ""
+
+#: redux/redux-core/templates/panel/footer.tpl.php:67
+msgid "Working..."
+msgstr ""
+
+#: redux/redux-core/templates/panel/header.tpl.php:11
+#: redux/redux-core/templates/panel/header.tpl.php:48
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: redux/redux-core/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: redux/redux-core/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: redux/redux-core/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: redux/redux-core/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: redux/redux-core/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:755
+#: redux/redux-templates/src/blocks/import/components/edit.js:76
+msgid "Invalid JSON file"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:759
+#: redux/redux-templates/src/blocks/import/components/edit.js:79
+msgid "Invalid Reusable Block JSON file"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:763
+#: redux/redux-templates/src/blocks/import/components/edit.js:82
+msgid "Unknown error"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:779
+#: redux/redux-templates/src/blocks/import/components/edit.js:95
+msgid "Import a Template from JSON - Redux"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:780
+#: redux/redux-templates/src/blocks/import/components/edit.js:96
+msgid "Drag a file or upload a new one from your device."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:787
+#: redux/redux-templates/src/blocks/import/components/edit.js:108
+msgid "Import from JSON"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:873
+#: redux/redux-templates/src/blocks/import/index.js:26
+msgid "Template Import"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:875
+#: redux/redux-templates/src/blocks/import/index.js:29
+msgid "import"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:875
+#: redux/redux-templates/src/blocks/import/index.js:30
+msgid "download"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:875
+#: redux/redux-templates/src/blocks/import/index.js:31
+msgid "migrate"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:878
+#: redux/redux-templates/src/blocks/import/index.js:38
+msgid "Import blocks exported using Redux plugin."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:3235
+#: redux/redux-templates/assets/js/redux-templates.js:3581
+#: redux/redux-templates/assets/js/redux-templates.js:4053
+#: redux/redux-templates/assets/js/redux-templates.js:8689
+#: redux/redux-templates/assets/js/redux-templates.js:9914
+#: redux/redux-templates/src/components/dependent-plugins/index.js:55
+#: redux/redux-templates/src/components/multiple-item/index.js:26
+#: redux/redux-templates/src/components/single-item/index.js:45
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilterRow.js:91
+#: redux/redux-templates/src/modal-preview/SidebarContent.js:89
+msgid "Not Installed"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:3245
+#: redux/redux-templates/src/components/dependent-plugins/index.js:68
+msgid "WordPress Core"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:3565
+#: redux/redux-templates/src/components/multiple-item/index.js:20
+msgid "Default Template"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:3568
+#: redux/redux-templates/assets/js/redux-templates.js:3580
+#: redux/redux-templates/assets/js/redux-templates.js:4038
+#: redux/redux-templates/assets/js/redux-templates.js:4052
+#: redux/redux-templates/assets/js/redux-templates.js:8814
+#: redux/redux-templates/assets/js/redux-templates.js:9025
+#: redux/redux-templates/assets/js/redux-templates.js:9868
+#: redux/redux-templates/src/components/multiple-item/index.js:21
+#: redux/redux-templates/src/components/multiple-item/index.js:25
+#: redux/redux-templates/src/components/single-item/index.js:38
+#: redux/redux-templates/src/components/single-item/index.js:44
+#: redux/redux-templates/src/modal-library/sidebar/priceFilter.js:32
+#: redux/redux-templates/src/modal-library/view-collection/index.js:70
+#: redux/redux-templates/src/modal-preview/SidebarContent.js:48
+msgid "Premium"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:3575
+#: redux/redux-templates/assets/js/redux-templates.js:4047
+#: redux/redux-templates/src/components/multiple-item/index.js:25
+#: redux/redux-templates/src/components/single-item/index.js:44
+msgid "Premium Requirements"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:3594
+#: redux/redux-templates/src/components/multiple-item/index.js:28
+msgid "View Templates"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:3742
+#: redux/redux-templates/src/components/pagination/index.js:52
+msgid "Current Page"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4438
+#: redux/redux-templates/assets/js/redux-templates.js:4441
+#: redux/redux-templates/src/challenge/config.js:31
+#: redux/redux-templates/src/components/tab-header/index.js:43
+#: redux/redux-templates/src/components/template-list-subheader/index.js:24
+#: redux/redux-templates/src/components/template-list-subheader/index.js:27
+msgid "Sections"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4440
+#: redux/redux-templates/src/challenge/config.js:39
+#: redux/redux-templates/src/components/tab-header/index.js:45
+#: redux/redux-templates/src/components/template-list-subheader/index.js:26
+msgid "Template Kits"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4472
+#: redux/redux-templates/src/components/template-list-subheader/index.js:52
+#, javascript-format
+msgid "Trial Ended: %d/%d Imported"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4472
+#: redux/redux-templates/src/components/template-list-subheader/index.js:57
+#, javascript-format
+msgid "Trial: %d/%d Imports Remaining"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4476
+#: redux/redux-templates/assets/js/redux-templates.js:7703
+#: redux/redux-templates/src/components/fab-wrapper/index.js:118
+#: redux/redux-templates/src/components/template-list-subheader/index.js:64
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumBox.js:14
+msgid "Upgrade to Redux Pro"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4482
+#: redux/redux-templates/src/components/template-list-subheader/index.js:74
+msgid "Take the Redux Challenge"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4489
+#: redux/redux-templates/src/components/template-list-subheader/index.js:79
+msgid "Refresh Library"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4498
+#: redux/redux-templates/src/components/template-list-subheader/index.js:86
+msgid "Large preview"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4506
+#: redux/redux-templates/src/components/template-list-subheader/index.js:92
+msgid "Medium preview"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4514
+#: redux/redux-templates/src/components/template-list-subheader/index.js:98
+msgid "Small preview"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4527
+#: redux/redux-templates/src/components/template-list-subheader/index.js:105
+msgid "Updated"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4883
+#: redux/redux-templates/src/custom-css/editor.js:101
+msgid "Add your custom CSS."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4886
+#: redux/redux-templates/src/custom-css/editor.js:105
+msgid "Use"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4886
+#: redux/redux-templates/src/custom-css/editor.js:105
+msgid "to target block wrapper."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4886
+#: redux/redux-templates/src/custom-css/editor.js:107
+msgid "Example:"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4888
+#: redux/redux-templates/src/custom-css/editor.js:113
+msgid "You can also use other CSS syntax here, such as media queries."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:4957
+#: redux/redux-templates/src/custom-css/index.js:55
+msgid "Custom CSS"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7134
+#: redux/redux-templates/src/modal-import-wizard/ImportingStep.js:10
+msgid "Please wait while your template is prepared."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7134
+#: redux/redux-templates/src/modal-import-wizard/ImportingStep.js:11
+msgid "Fetching the template."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7134
+#: redux/redux-templates/src/modal-import-wizard/ImportingStep.js:12
+msgid "We're getting closer now."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7134
+#: redux/redux-templates/src/modal-import-wizard/ImportingStep.js:13
+msgid "Wow, this is taking a long time."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7134
+#: redux/redux-templates/src/modal-import-wizard/ImportingStep.js:14
+msgid "Gah, this should be done by now!"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7134
+#: redux/redux-templates/src/modal-import-wizard/ImportingStep.js:15
+msgid "Really, this should be done soon."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7134
+#: redux/redux-templates/src/modal-import-wizard/ImportingStep.js:16
+msgid "Are you sure your internet is working?!"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7134
+#: redux/redux-templates/src/modal-import-wizard/ImportingStep.js:17
+msgid "Give up, it looks like it didn't work..."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7300
+#: redux/redux-templates/src/modal-import-wizard/InstallPluginStep.js:68
+msgid "Install Required Plugins"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7300
+#: redux/redux-templates/src/modal-import-wizard/InstallPluginStep.js:69
+msgid ""
+"Plugins needed to import this template are missing. Required plugins will be "
+"installed and activated automatically."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7302
+#: redux/redux-templates/src/modal-import-wizard/InstallPluginStep.js:73
+msgid ""
+"The following plugin(s) failed to install properly. Please manually install "
+"them yourself before attempting another import."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7344
+#: redux/redux-templates/src/modal-import-wizard/InstallPluginStep.js:106
+msgid "Install"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7397
+#: redux/redux-templates/src/modal-import-wizard/OptionStep.js:23
+msgid "Append or Replace"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7397
+#: redux/redux-templates/src/modal-import-wizard/OptionStep.js:24
+msgid ""
+"You have existing content on this page. How would you like to handle the "
+"import of this page template?"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7408
+#: redux/redux-templates/src/modal-import-wizard/OptionStep.js:28
+msgid "Append to Content"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7411
+#: redux/redux-templates/src/modal-import-wizard/OptionStep.js:33
+msgid "Replace all Content"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7453
+#: redux/redux-templates/src/modal-import-wizard/ProPluginsStep.js:14
+msgid "Additional Plugins Required"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7453
+#: redux/redux-templates/src/modal-import-wizard/ProPluginsStep.js:15
+msgid "The following premium plugin(s) are required to import this template:"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7471
+#: redux/redux-templates/assets/js/redux-templates.js:9748
+#: redux/redux-templates/assets/js/redux-templates.js:10398
+#: redux/redux-templates/src/modal-import-wizard/ProPluginsStep.js:33
+#: redux/redux-templates/src/modal-preview/FullyOverlayHeader.js:8
+#: redux/redux-templates/src/modal-promotor-score/index.js:69
+msgid "Close"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7495
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesActivateBox.js:9
+msgid "Registration Required to Import Templates"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7495
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesActivateBox.js:10
+msgid ""
+" Register now to import templates from the Redux template library in a "
+"single click."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7495
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesActivateBox.js:12
+msgid "Unlimited"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7495
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesActivateBox.js:12
+msgid "use of our free templates."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7495
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesActivateBox.js:13
+msgid "Updates"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7495
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesActivateBox.js:13
+msgid "to the library."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7495
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesActivateBox.js:14
+msgid "Google Fonts"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7495
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesActivateBox.js:14
+msgid "manual updates."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7504
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesActivateBox.js:21
+msgid "Register for Free"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7551
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:8
+msgid "Enter your API key to activate and install your copy of Redux Pro."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7570
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:15
+msgid "Installing the redux-framework plugin."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7577
+#: redux/redux-templates/assets/js/redux-templates.js:7601
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:22
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:47
+msgid "Install of Redux Pro failed, please try again."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7581
+#: redux/redux-templates/assets/js/redux-templates.js:7604
+#: redux/redux-templates/assets/js/redux-templates.js:7633
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:27
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:51
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:79
+msgid ""
+"There seems to be an API issue. Please contact Redux support or try again."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7591
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:37
+msgid "Installing Redux Pro."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7596
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:42
+msgid "Redux Pro successfully installed!"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7616
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:63
+msgid "Validating license key."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7621
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:68
+msgid "API key activated, installing Redux Pro."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7627
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:74
+msgid "License key failed to activate. Please try again."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7646
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:91
+msgid "Activate Redux Pro"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7650
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:96
+msgid "Enter your subscription key"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7663
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:102
+msgid "Activate & Install Pro"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7670
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:105
+msgid "Activate"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7674
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumActivate.js:105
+#, javascript-format
+msgid ""
+"Visit the <a href=\"%s\" target=\"_blank\">account dashboard</a> to recover "
+"your subscription key."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7703
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumBox.js:16
+msgid ""
+"Thanks for giving our library a try! Upgrade to Redux Pro to unlock even "
+"more designs and to continue using our library."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7708
+#: redux/redux-templates/src/modal-import-wizard/ReduxTemplatesPremiumBox.js:20
+msgid "Upgrade Now Just $49"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:7934
+#: redux/redux-templates/src/challenge/config.js:164
+#: redux/redux-templates/src/modal-import-wizard/index.js:148
+msgid "Import Wizard"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8273
+#: redux/redux-templates/src/modal-library/sidebar/categoryFilter.js:14
+msgid "Section"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8274
+#: redux/redux-templates/src/modal-library/sidebar/categoryFilter.js:15
+msgid "Template"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8275
+#: redux/redux-templates/src/modal-library/sidebar/categoryFilter.js:16
+msgid "Template Kit"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8302
+#: redux/redux-templates/src/modal-library/sidebar/categoryFilter.js:43
+msgid "Categories"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8404
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:33
+msgid "Templates which contain blocks from any of the selected plugins."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8412
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:34
+msgid "Any"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8413
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:36
+msgid "Templates that only contain blocks from the selected plugins."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8421
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:37
+msgid "Only"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8421
+#: redux/redux-templates/assets/js/redux-templates.js:9886
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:40
+#: redux/redux-templates/src/modal-preview/SidebarContent.js:65
+msgid "Required Plugins"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8424
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:43
+msgid "Select All"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8430
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:47
+msgid "Installed Dependencies"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8435
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:48
+msgid "Installed"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8436
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:51
+msgid "Native Blocks Only"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8450
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:60
+msgid "Native"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8454
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:64
+msgid "Only default WordPress blocks used."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8479
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilter.js:87
+msgid "Third-party premium plugins required."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8681
+#: redux/redux-templates/assets/js/redux-templates.js:9921
+#: redux/redux-templates/src/modal-library/sidebar/dependencyFilterRow.js:87
+#: redux/redux-templates/src/modal-preview/SidebarContent.js:96
+msgid "Visit Plugin Website"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8807
+#: redux/redux-templates/src/modal-library/sidebar/priceFilter.js:28
+msgid "Free"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:8997
+#: redux/redux-templates/src/modal-library/view-collection/index.js:47
+msgid "Back to Template Kits"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:9007
+#: redux/redux-templates/src/modal-library/view-collection/index.js:56
+msgid "pages"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:9688
+#: redux/redux-templates/src/modal-preview/FullyOverlayFooter.js:24
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:9703
+#: redux/redux-templates/src/modal-preview/FullyOverlayFooter.js:38
+msgid "Collapse"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:9753
+#: redux/redux-templates/src/modal-preview/FullyOverlayHeader.js:11
+msgid "Previous"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:9758
+#: redux/redux-templates/src/challenge/tooltip/TooltipBox.js:137
+#: redux/redux-templates/src/modal-preview/FullyOverlayHeader.js:14
+msgid "Next"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:9855
+#: redux/redux-templates/src/modal-preview/SidebarContent.js:42
+msgid "Full Preview"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:9872
+#: redux/redux-templates/src/modal-preview/SidebarContent.js:52
+msgid "Copy the template identifier"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:9885
+#: redux/redux-templates/src/modal-preview/SidebarContent.js:58
+msgid "copied"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:9931
+#: redux/redux-templates/src/modal-preview/SidebarContent.js:110
+msgid "Blocks Used"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:9941
+#: redux/redux-templates/src/modal-preview/SidebarContent.js:127
+msgid "Template Details"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:10336
+#: redux/redux-templates/src/modal-promotor-score/index.js:21
+msgid "Thanks for your feedback, your input is very much valued."
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:10373
+#: redux/redux-templates/src/modal-promotor-score/index.js:43
+msgid "Can we ask you a question?"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:10395
+#: redux/redux-templates/src/modal-promotor-score/index.js:66
+msgid "Submit"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:10628
+#: redux/redux-templates/src/plugins/export/export-block-menu-item.js:71
+msgid "Export Block"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:11163
+#: redux/redux-templates/assets/js/redux-templates.js:11182
+#: redux/redux-templates/src/plugins/share-block-btn/buttons.js:70
+#: redux/redux-templates/src/plugins/sidebar-share/sidebar.js:58
+#: redux/redux-templates/src/plugins/sidebar-share/sidebar.js:77
+msgid "Redux Shares"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:11164
+#: redux/redux-templates/assets/js/redux-templates.js:11193
+#: redux/redux-templates/src/plugins/share-block-btn/buttons.js:72
+#: redux/redux-templates/src/plugins/sidebar-share/sidebar.js:59
+#: redux/redux-templates/src/plugins/sidebar-share/sidebar.js:82
+msgid "Share this design"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:11174
+#: redux/redux-templates/src/plugins/share-block-btn/buttons.js:79
+#: redux/redux-templates/src/plugins/sidebar-share/sidebar.js:67
+msgid "Submit Template"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:11180
+#: redux/redux-templates/src/plugins/sidebar-share/sidebar.js:75
+msgid "Redux Template"
+msgstr ""
+
+#: redux/redux-templates/assets/js/redux-templates.js:11184
+#: redux/redux-templates/src/plugins/sidebar-share/sidebar.js:78
+msgid "Share this Design"
+msgstr ""
+
+#: redux/redux-templates/classes/class-api.php:297
+msgid "API fetch failure."
+msgstr ""
+
+#: redux/redux-templates/classes/class-api.php:306
+msgid "Fetching failed, used a cached version."
+msgstr ""
+
+#: redux/redux-templates/classes/class-api.php:907
+msgid "Slug not specified."
+msgstr ""
+
+#: redux/redux-templates/classes/class-api.php:928
+msgid "Redux Pro license not active, please activate."
+msgstr ""
+
+#: redux/redux-templates/classes/class-api.php:940
+#: redux/redux-templates/classes/class-api.php:1052
+msgid "Invalid license key."
+msgstr ""
+
+#: redux/redux-templates/classes/class-api.php:956
+#: redux/redux-templates/classes/class-api.php:963
+msgid "A valid Redux Pro subscription is required."
+msgstr ""
+
+#: redux/redux-templates/classes/class-api.php:1032
+msgid "You have reached your activation limits for Redux Pro"
+msgstr ""
+
+#: redux/redux-templates/classes/class-api.php:1281
+msgid "NPS not specified."
+msgstr ""
+
+#: redux/redux-templates/classes/class-api.php:1295
+msgid "Could not record score."
+msgstr ""
+
+#: redux/redux-templates/classes/class-gutenberg-custom-css.php:223
+#: redux/redux-templates/classes/class-gutenberg-custom-css.php:235
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: redux/redux-templates/classes/class-notices.php:32
+#, php-format
+msgid "ReduxTemplates requires PHP version %s or more."
+msgstr ""
+
+#: redux/redux-templates/classes/class-notices.php:47
+#, php-format
+msgid "ReduxTemplates requires WordPress version %s or more."
+msgstr ""
+
+#: redux/redux-templates/classes/class-templates.php:175
+msgid "Redux Contained"
+msgstr ""
+
+#: redux/redux-templates/classes/class-templates.php:176
+msgid "Redux Full Width"
+msgstr ""
+
+#: redux/redux-templates/classes/class-templates.php:177
+msgid "Redux Canvas"
+msgstr ""
+
+#: redux/redux-templates/src/blocks/library/edit.js:32
+msgid "Open the Design Library and select a pre-designed block or layout."
+msgstr ""
+
+#: redux/redux-templates/src/blocks/library/edit.js:43
+msgid "Open Design Library"
+msgstr ""
+
+#: redux/redux-templates/src/blocks/library/index.js:33
+msgid ""
+"Choose a section, template, or template kit from the Redux Template Library."
+msgstr ""
+
+#: redux/redux-templates/src/blocks/library/index.js:37
+msgid "Design Library"
+msgstr ""
+
+#: redux/redux-templates/src/blocks/library/index.js:38
+msgid "Element Layouts"
+msgstr ""
+
+#: redux/redux-templates/src/blocks/library/insert-library-button.js:17
+msgid "Redux Templates Library"
+msgstr ""
+
+#: redux/redux-templates/src/blocks/library/insert-library-button.js:23
+msgid "Open Library"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/challenge-list-block/index.js:29
+msgid "Complete the challenge and get up and running within 5 minutes"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/challenge-list-block/index.js:41
+msgid "Start Challenge"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/challenge-list-block/index.js:42
+msgid "Skip Challenge"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/challenge-list-block/index.js:43
+msgid "Cancel Challenge"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/challenge-timer/index.js:76
+msgid "Redux Challenge"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/challenge-timer/index.js:77
+msgid " remaining"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:15
+msgid "Template Type Tabs"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:28
+msgid "These are the different types of templates we have."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:32
+msgid ""
+" are the building blocks of a page. Each \"row\" of content on a page we "
+"consider a section."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:35
+msgid "Pages"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:36
+msgid " are, you guessed it, a group of multiple sections making up a page."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:40
+msgid " are groups of pages that all follow a style or theme."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:43
+#: redux/redux-templates/src/components/tab-header/index.js:46
+msgid "Saved"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:44
+msgid " are reusable blocks that you may have previously saved for later."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:52
+msgid "Sidebar"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:53
+msgid ""
+"This area is where you can search and filter to find the right kind of "
+"templates you want."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:74
+msgid "Plugins Filter"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:87
+msgid ""
+"Some templates require certain plugins. You can filter or select those "
+"templates. Hint, if the text is a "
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:88
+msgid "little orange"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:89
+msgid ""
+", you don`t have that plugin installed yet, but don`t worry. Redux will help "
+"you with that too."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:102
+msgid "Templates List"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:103
+msgid ""
+"This area is where the templates will show up that match the filters you've "
+"selected. You can click on many of them to preview or import them."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:125
+msgid "Template Hover"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:126
+msgid ""
+"When you hover over a template you can see via icons what plugins are "
+"required for this template. You can then choose to Preview or Import a "
+"design."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:148
+msgid "Preview Dialog"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:149
+msgid ""
+"This is the preview dialog. It gives more details about the template and "
+"helps you to see what you could expect the templates to look like."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/config.js:165
+msgid ""
+"When you click to import a template, sometimes you will be missing one of "
+"the required plugins. Redux will do its best to help you install what's "
+"missing. If some of them are premium plugins, you will be provided details "
+"on where you can get them."
+msgstr ""
+
+#: redux/redux-templates/src/challenge/helper.js:61
+msgid "minutes"
+msgstr ""
+
+#: redux/redux-templates/src/challenge/helper.js:62
+msgid "seconds"
+msgstr ""
+
+#: redux/redux-templates/src/components/fab-wrapper/index.js:18
+msgid "Yes, I give Redux permission to contact me for any follow up questions."
+msgstr ""
+
+#: redux/redux-templates/src/components/fab-wrapper/index.js:42
+msgid "See Quick Links"
+msgstr ""
+
+#: redux/redux-templates/src/components/fab-wrapper/index.js:72
+msgid "Get Support"
+msgstr ""
+
+#: redux/redux-templates/src/components/fab-wrapper/index.js:81
+msgid "Join our Community"
+msgstr ""
+
+#: redux/redux-templates/src/components/fab-wrapper/index.js:92
+msgid "Visit our Website"
+msgstr ""
+
+#: redux/redux-templates/src/components/tab-header/index.js:35
+msgid "Search for a template"
+msgstr ""
+
+#: redux/redux-templates/src/components/welcome-guide/index.js:42
+msgid "Say hello to the Redux template library"
+msgstr ""
+
+#: redux/redux-templates/src/components/welcome-guide/index.js:59
+msgid "Try the Redux Template Library"
+msgstr ""
+
+#: redux/redux-templates/src/components/welcome-guide/index.js:63
+msgid ""
+"Redux brings you over 1,000 importable templates and blocks that allow you "
+"to build Gutenberg powered pages and websites in minutes not days."
+msgstr ""
+
+#: redux/redux-templates/src/components/welcome-guide/index.js:75
+msgid "Using the Template Library"
+msgstr ""
+
+#: redux/redux-templates/src/components/welcome-guide/index.js:79
+msgid ""
+"To use the template library click on the library button then pick your "
+"favourite template and import! Redux allows you to import beautiful "
+"Gutenberg pages in seconds."
+msgstr ""
+
+#: redux/redux-templates/src/components/welcome-guide/index.js:91
+msgid "Import 5 templates for free or go Pro!"
+msgstr ""
+
+#: redux/redux-templates/src/components/welcome-guide/index.js:95
+msgid ""
+"Redux allows you 5 free imports or you can go Pro now and import unlimited "
+"templates for just $49/year (limited time only)."
+msgstr ""
+
+#: redux/redux-templates/src/modal-feedback/index.js:33
+#: redux/redux-templates/src/modal-feedback/index.js:38
+msgid "An unexpected error occured, please try again later."
+msgstr ""
+
+#: redux/redux-templates/src/modal-feedback/modal.js:39
+msgid "An Error occured"
+msgstr ""
+
+#: redux/redux-templates/src/modal-feedback/modal.js:43
+msgid "There was an error: "
+msgstr ""
+
+#: redux/redux-templates/src/modal-feedback/modal.js:70
+msgid "Feedback Wizard"
+msgstr ""
+
+#: redux/redux-templates/src/modal-feedback/modal.js:82
+#: redux/redux-templates/src/stores/actionHelper.js:204
+msgid "Thank you for reporting an issue."
+msgstr ""
+
+#: redux/redux-templates/src/modal-feedback/modal.js:84
+#: redux/redux-templates/src/stores/actionHelper.js:205
+msgid ""
+"We want to make Redux perfect. Please send whatever you are comfortable "
+"sending, and we will do our best to resolve the problem."
+msgstr ""
+
+#: redux/redux-templates/src/plugins/export-page-menu-item/index.js:36
+msgid "Export Page"
+msgstr ""
+
+#: redux/redux-templates/src/plugins/share-block-btn/buttons.js:88
+msgid "Share Block"
+msgstr ""
+
+#: redux/redux-templates/src/plugins/share-block-btn/modal.js:116
+#: redux/redux-templates/src/plugins/share-block-btn/modal.js:133
+msgid "Share Wizard"
+msgstr ""
+
+#: redux/redux-templates/src/stores/actionHelper.js:163
+msgid "Send theme and plugins"
+msgstr ""
+
+#: redux/redux-templates/src/stores/actionHelper.js:168
+msgid "Send page content"
+msgstr ""
+
+#: redux/redux-templates/src/stores/actionHelper.js:174
+msgid "Template ID"
+msgstr ""
+
+#: redux/sample-config.php:90 redux/sample-config.php:93
+msgid "Sample Options"
+msgstr ""
+
+#: redux/sample-config.php:225 redux/sample-config.php:551
+msgid "Documentation"
+msgstr ""
+
+#: redux/sample-config.php:231
+msgid "Support"
+msgstr ""
+
+#: redux/sample-config.php:237
+msgid "Extensions"
+msgstr ""
+
+#: redux/sample-config.php:273
+#, php-format
+msgid ""
+"Did you know that Redux sets a global variable for you? To access any of "
+"your saved options from within your code you can use your global variable: $"
+"%1$s"
+msgstr ""
+
+#: redux/sample-config.php:275
+msgid ""
+"This text is displayed above the options panel. It isn't required, but more "
+"info is always better! The intro_text field accepts all HTML."
+msgstr ""
+
+#: redux/sample-config.php:279
+msgid ""
+"This text is displayed below the options panel. It isn't required, but more "
+"info is always better! The footer_text field accepts all HTML."
+msgstr ""
+
+#: redux/sample-config.php:293
+msgid "Theme Information 1"
+msgstr ""
+
+#: redux/sample-config.php:294 redux/sample-config.php:299
+msgid "This is the tab content, HTML is allowed."
+msgstr ""
+
+#: redux/sample-config.php:298
+msgid "Theme Information 2"
+msgstr ""
+
+#: redux/sample-config.php:305
+msgid "This is the sidebar content, HTML is allowed."
+msgstr ""
+
+#: redux/sample-config.php:321
+msgid "Basic Fields"
+msgstr ""
+
+#: redux/sample-config.php:323
+msgid "These are really basic fields!"
+msgstr ""
+
+#: redux/sample-config.php:341
+msgid "Editors"
+msgstr ""
+
+#: redux/sample-config.php:355
+msgid "Color Selection"
+msgstr ""
+
+#: redux/sample-config.php:372
+msgid "Design Fields"
+msgstr ""
+
+#: redux/sample-config.php:388
+msgid "Media Uploads"
+msgstr ""
+
+#: redux/sample-config.php:402
+msgid "Presentation Fields"
+msgstr ""
+
+#: redux/sample-config.php:424
+msgid "Switch / Button Set"
+msgstr ""
+
+#: redux/sample-config.php:437
+msgid "Select Fields"
+msgstr ""
+
+#: redux/sample-config.php:451
+msgid "Slider / Spinner"
+msgstr ""
+
+#: redux/sample-config.php:467
+msgid "Additional Types"
+msgstr ""
+
+#: redux/sample-config.php:480
+msgid "Advanced Features"
+msgstr ""
+
+#: redux/sample-config.php:502
+msgid "Disabling"
+msgstr ""
+
+#: redux/sample-config.php:515
+msgid "Redux Pro Fields"
+msgstr ""
+
+#: redux/sample-config.php:519
+msgid "For full documentation on this field, visit: "
+msgstr ""
+
+#: redux/sample-config.php:569
+msgid "Customizer Only"
+msgstr ""
+
+#: redux/sample-config.php:570
+msgid "This Section should be visible only in Customizer"
+msgstr ""
+
+#: redux/sample-config.php:576
+msgid "Customizer Only Option"
+msgstr ""
+
+#: redux/sample-config.php:577
+msgid "The subtitle is NOT visible in customizer"
+msgstr ""
+
+#: redux/sample-config.php:578
+msgid "The field desc is NOT visible in customizer."
+msgstr ""
+
+#: redux/sample-config.php:581
+msgid "Opt 1"
+msgstr ""
+
+#: redux/sample-config.php:582
+msgid "Opt 2"
+msgstr ""
+
+#: redux/sample-config.php:583
+msgid "Opt 3"
+msgstr ""
+
+#: redux/sample-config.php:691
+msgid "Section via hook"
+msgstr ""
+
+#: redux/sample-config.php:692
+msgid ""
+"This is a section created by adding a filter to the sections array. Can be "
+"used by child themes to add/remove sections from the options."
+msgstr ""
+
+#: redux/sample-config.php:728
+msgid "Testing filter hook!"
+msgstr ""
