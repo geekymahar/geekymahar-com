@@ -114,7 +114,6 @@ class Plugins_Service {
 			$plugin['version']
 		);
 
-
 		$headers = get_headers( $package, true );
 
 		// Bail if the fetch fails.
@@ -148,7 +147,10 @@ class Plugins_Service {
 		$upgrader = new \Plugin_Upgrader( $skin );
 		$result   = $upgrader->install( $package );
 
-		activate_plugin( $plugin['path'] );
+		// Activate the plugin if it was previously activated.
+		if ( 1 === $plugin['is_active'] ) {
+			activate_plugin( $plugin['path'] );
+		}
 
 		// Refresh plugin update information.
 		wp_clean_plugins_cache();

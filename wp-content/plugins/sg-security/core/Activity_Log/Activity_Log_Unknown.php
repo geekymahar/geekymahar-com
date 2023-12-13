@@ -23,6 +23,7 @@ class Activity_Log_Unknown extends Activity_Log_Helper {
 		'facebot',
 		'ia_archiver',
 		'petalbot',
+		'jetmon',
 	);
 
 	/**
